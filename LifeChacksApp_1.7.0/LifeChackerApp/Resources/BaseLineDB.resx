@@ -1,0 +1,2730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String0" xml:space="preserve">
+    <value>Спасибо, что выбрали данное приложение! Заметили ошибку? Что-то не работает? Напишите мне, помогите улучшить приложение. ( ... -&gt; настройки -&gt; автору )</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Лайфхак (lifehack) — хитрые советы и приемы, которые помогут сделать вашу жизнь более комфортной и удобной. Это слово образовано из двух частей «life» и «hack», что означает «взлом жизни», но более близкое нам по произношению — «житейская хитрость».</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>Избавиться от катышек на джинсах поможет бритва.</value>
+  </data>
+  <data name="String100" xml:space="preserve">
+    <value>Хранить грибы лучше в бумажном, а не в пластиковом пакете.</value>
+  </data>
+  <data name="String101" xml:space="preserve">
+    <value>Чтобы вернуть свежесть чёрствому хлебу, потрите его кубиком льда, а затем поставьте в предварительно разогретую духовку на 12 минут.</value>
+  </data>
+  <data name="String102" xml:space="preserve">
+    <value>Макаронные изделия в пакетах, когда их достаешь с полки, часто ломаются, рассыпаются и высыпаются. Чтобы этого избежать, макароны можно хранить в коробках из-под чипсов "Принглз".</value>
+  </data>
+  <data name="String103" xml:space="preserve">
+    <value>Можно и обзавестись чехлами или футлярами или определить отдельную полочку в шкафу для ваших очков. Но и это, честно говоря, отличный способ собрать все очки вместе и в порядке.</value>
+  </data>
+  <data name="String104" xml:space="preserve">
+    <value>Если ваша девушка заметила, что вы смотрите на другую, просто повернитесь к ней и скажите: «Я так рад, что ты не носишь такие платья, как у нее».</value>
+  </data>
+  <data name="String105" xml:space="preserve">
+    <value>Чтобы сохранить одежду свежей, кладите на дно чемодана антистатические салфетки.</value>
+  </data>
+  <data name="String106" xml:space="preserve">
+    <value>Перед путешествием отсканируйте все важные документы.</value>
+  </data>
+  <data name="String107" xml:space="preserve">
+    <value>Мед кажется вам слишком густым? Если он кристаллизовался, поставьте банку без крышки в микроволновку на 2 минуты при низкой мощности. Мед снова станет текучим и полностью сохранит свой волшебный вкус.</value>
+  </data>
+  <data name="String108" xml:space="preserve">
+    <value>Посадили жирное пятно на обои? Просто потрите его мелом и дайте ему пару минут, чтобы абсорбировать жир, затем аккуратно протрите место влажной тканью. Этот способ также отлично работает и с тканью.</value>
+  </data>
+  <data name="String109" xml:space="preserve">
+    <value>Чтобы быстро и без труда просушить мокрую обувь, просто напихайте внутрь неё газет и поставьте ваши фаршированные ботинки на газету. Для ускорения процесса через время газеты рекомендуется менять.</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>Чтобы одновременно подогреть еду в двух пиалах, просто используйте кружку как подставку.</value>
+  </data>
+  <data name="String110" xml:space="preserve">
+    <value>Чтобы дать кожаному креслу новую жизнь, обработайте его кремом для обуви в цвет, и все потертости исчезнут.</value>
+  </data>
+  <data name="String111" xml:space="preserve">
+    <value>Оливковым маслом удобно чистить нержавеющую сталь. Протрите металл смоченной маслом тряпкой, а затем натрите до блеска сухим бумажным полотенцем.</value>
+  </data>
+  <data name="String112" xml:space="preserve">
+    <value>Храните зелень, поставив ее “букетиком” в воду, как цветы, затем накройте пакетом, завяжите резинкой и поставьте в холодильник. Это поможет дольше сохранить такие травы, как петрушка, базилик, кинза и лук.</value>
+  </data>
+  <data name="String113" xml:space="preserve">
+    <value>Удобная подставка под провода.</value>
+  </data>
+  <data name="String114" xml:space="preserve">
+    <value>Машинка на пульте управления + щетка = любой ребенок будет согласен мыть пол целыми днями.</value>
+  </data>
+  <data name="String115" xml:space="preserve">
+    <value>Чтобы ноутбук не перегревался, поставьте его на бумажную упаковку для яиц.</value>
+  </data>
+  <data name="String116" xml:space="preserve">
+    <value>Горячую, только что сгоревшую лампочку удобно выкручивать половинкой старого теннисного мячика.</value>
+  </data>
+  <data name="String117" xml:space="preserve">
+    <value>Пятна эмульсионной краски с рук легко удалить при помощи детского масла.</value>
+  </data>
+  <data name="String118" xml:space="preserve">
+    <value>Удалите пятна накипи с утюга, прогладив им лист бумаги с рассыпанной по нему солью.</value>
+  </data>
+  <data name="String119" xml:space="preserve">
+    <value>Удалите пятна губной помады с одежды при помощи лака для волос. Если вещь можно стирать в машине, побрызгайте пятно лаком для волос, оставьте на 10 минут, а затем протрите влажной тканью или губкой. После этого постирайте как обычно.</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>Чтобы быстро охладить бутылку пива, оберните её бумажным полотенцем, затем намочите завернутую бутылку и поставьте в холодильник (а лучше в морозилку).</value>
+  </data>
+  <data name="String120" xml:space="preserve">
+    <value>Небольшие пятна на замше можно удалить при помощи пилочки для ногтей.</value>
+  </data>
+  <data name="String121" xml:space="preserve">
+    <value>Старой электрической зубной щёткой очень удобно чистить швы между кафельными плитками.</value>
+  </data>
+  <data name="String122" xml:space="preserve">
+    <value>Обрезанные горлышки пластмассовых бутылок с крышками можно приспособить, чтобы накрывать пакеты с сыпучими продуктами.</value>
+  </data>
+  <data name="String123" xml:space="preserve">
+    <value>Зажим для бумаги поможет защитить лезвие бритвы.</value>
+  </data>
+  <data name="String124" xml:space="preserve">
+    <value>Шпильки и заколки удобно хранить в коробочке "Tic-Tac".</value>
+  </data>
+  <data name="String125" xml:space="preserve">
+    <value>Если вам придётся объяснять человеку, как до вас добраться, добавьте к объяснениям фотографию вашего дома. Так гостю будет гораздо легче сориентироваться.</value>
+  </data>
+  <data name="String126" xml:space="preserve">
+    <value>Чтобы кетчуп лился из бутылки быстрее, воткните в него соломинку, а затем вытащите.</value>
+  </data>
+  <data name="String127" xml:space="preserve">
+    <value>Отделить желток от белка проще простого: разбейте яйцо на тарелку. Затем возьмите пустую пластиковую бутылку, немного сдавите, чтобы вышла часть воздуха, поднесите к желтку, и он легко втянется в бутылку.</value>
+  </data>
+  <data name="String128" xml:space="preserve">
+    <value>Для долгого хранения нашинкованного репчатого лука нужно положить его в посуду, посыпанную солью.</value>
+  </data>
+  <data name="String129" xml:space="preserve">
+    <value>Коробку для хранения CD можно использовать как контейнер для бутербродов.</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>Чтобы не отбить пальцы молотком, используйте прищепку.</value>
+  </data>
+  <data name="String130" xml:space="preserve">
+    <value>Залейте тесто для блинов в пустую бутылку из-под кетчупа, и процесс приготовления станет намного аккуратнее.</value>
+  </data>
+  <data name="String131" xml:space="preserve">
+    <value>Пометьте конспекты цветными маркерами, чтобы было проще отыскать в сумке необходимый.</value>
+  </data>
+  <data name="String132" xml:space="preserve">
+    <value>Влажные салфетки на вентиляторе — отличный освежитель воздуха.</value>
+  </data>
+  <data name="String133" xml:space="preserve">
+    <value>Поместите точилку в упаковку от "Tic-Tac", и весь мусор останется там.</value>
+  </data>
+  <data name="String134" xml:space="preserve">
+    <value>Арбузная фруктовая чаша.</value>
+  </data>
+  <data name="String135" xml:space="preserve">
+    <value>Гудит кулер (вентилятор) в системном блоке? Капните две-три капли смазки(жидкое моторное масло), и на полгода-год вы избавлены от таких проблем. За счет химической инертности и стабильной вязкости даже при высоких температурах эта смазка существенно продлевает срок работы кулера.</value>
+  </data>
+  <data name="String136" xml:space="preserve">
+    <value>Прозрачный лак поверх ниток — и ваши пуговицы всегда на месте.</value>
+  </data>
+  <data name="String137" xml:space="preserve">
+    <value>Удобный способ хранить ключи: и материал в любой семье есть, и делать полминуты, и брелоки на ключах будут легкими.</value>
+  </data>
+  <data name="String138" xml:space="preserve">
+    <value>Прием с клейкими листочками для сверления стен. Весь мусор собирается в одном месте и выкидывается одним движением — никакой беготни с газетками или пылесосом.</value>
+  </data>
+  <data name="String139" xml:space="preserve">
+    <value>Язычок для молнии. Потеряли или отломился? Проденьте в крючок бегунка скрепку (по крайней мере, временно).</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>Перед походом на пляж сложите важные вещи (ключи, деньги, телефон) в бутылку от шампуня или крема от загара. Так вы защитите их от песка и влаги, и вряд ли кто-то захочет украсть у вас бутылку шампуня или крема.</value>
+  </data>
+  <data name="String140" xml:space="preserve">
+    <value>Если же засор трубы маленького масштаба, то с ним может справиться обычный лимон.</value>
+  </data>
+  <data name="String141" xml:space="preserve">
+    <value>Если ткань одежды застряла в молнии, то выручит обычный карандаш! Проводим графитом по зубчикам молнии и аккуратно и без лишних нервов освобождаем ткань.</value>
+  </data>
+  <data name="String142" xml:space="preserve">
+    <value>А из старого-престарого телевизора может получиться вот такой мини-бар в ретро-стиле.</value>
+  </data>
+  <data name="String143" xml:space="preserve">
+    <value>Держатель для пива в холодильнике.</value>
+  </data>
+  <data name="String144" xml:space="preserve">
+    <value>Еще одна полезная идея для гаража, особенно – для тесного. Если боитесь оцарапать авто при въезде – приклейте вдоль стен полосы из поролона.</value>
+  </data>
+  <data name="String145" xml:space="preserve">
+    <value>Шелковые платки и шарфы не помнутся, если их обернуть вокруг пустых рулонов от бумажных полотенец, закрепив резинками.</value>
+  </data>
+  <data name="String146" xml:space="preserve">
+    <value>Используйте ролики от полотенец для хранения проводов.</value>
+  </data>
+  <data name="String147" xml:space="preserve">
+    <value>Обычную открывашку можно использовать для открывания этих ужасных пластиковых упаковок. Это позволит вам сэкономить время, а также ногти/ключи/и прочие нужные вещи, которыми мы обычно пытаемся открыть эти упаковки.</value>
+  </data>
+  <data name="String148" xml:space="preserve">
+    <value>Пробки от вина можно использовать для маленьких растений, например суккулентов. К ним можно прикрепить магнитики и повесить на холодильник.</value>
+  </data>
+  <data name="String149" xml:space="preserve">
+    <value>Используйте сухие спагетти, чтобы поджечь труднодоступные свечи.</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>Чтобы легко очистить вареное яйцо, перед варкой добавьте в воду немного соды.</value>
+  </data>
+  <data name="String150" xml:space="preserve">
+    <value>Герметично закрытые банки можно открывать с помощью обычной ложки.</value>
+  </data>
+  <data name="String151" xml:space="preserve">
+    <value>Повесьте картину, использовав крышку от банки из-под кока-колы или другого подобного напитка.</value>
+  </data>
+  <data name="String152" xml:space="preserve">
+    <value>Если на плите разбушевался огонь, насыпьте в него пищевую соду. Действует по принципу огнетушителя.</value>
+  </data>
+  <data name="String153" xml:space="preserve">
+    <value>Туалет можно эффективно почистить алка-зельтцером. Киньте туда пару таблеток, подождите 20 минут. Лимонная кислота растворит въевшуюся грязь.</value>
+  </data>
+  <data name="String154" xml:space="preserve">
+    <value>Мягкий сыр и тому подобные продукты можно резать зубной нитью.</value>
+  </data>
+  <data name="String155" xml:space="preserve">
+    <value>Слегка помажьте края сыра сливочным маслом, чтобы он не заплесневел.</value>
+  </data>
+  <data name="String156" xml:space="preserve">
+    <value>Превратите старые кредитные карточки в медиаторы.</value>
+  </data>
+  <data name="String157" xml:space="preserve">
+    <value>Из старых лампочек можно сделать необычные свечи.</value>
+  </data>
+  <data name="String158" xml:space="preserve">
+    <value>Заполните коробку зубочистками, и она станет блоком для ножей.</value>
+  </data>
+  <data name="String159" xml:space="preserve">
+    <value>Сделайте из старой доски объявлений «органайзер» для бижутерии.</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>Складывайте одежду в ящиках вертикально, так вы сэкономите много места.</value>
+  </data>
+  <data name="String160" xml:space="preserve">
+    <value>Из старых книг можно сделать полки.</value>
+  </data>
+  <data name="String161" xml:space="preserve">
+    <value>В старых CD-футлярах можно удобно хранить кабели и провода.</value>
+  </data>
+  <data name="String162" xml:space="preserve">
+    <value>Вот такой мини-холодильник можно превратить в маленькую ТВ-тумбочку для хранения всяких аксессуаров.</value>
+  </data>
+  <data name="String163" xml:space="preserve">
+    <value>Крючки для занавески в душе можно использовать как вешалки для сумок в гардеробе.</value>
+  </data>
+  <data name="String164" xml:space="preserve">
+    <value>Используйте фрисби для укрепления пластиковых тарелок.</value>
+  </data>
+  <data name="String165" xml:space="preserve">
+    <value>Бумажки от кексов можно использовать, чтобы мороженое не капало на руки.</value>
+  </data>
+  <data name="String166" xml:space="preserve">
+    <value>Оригинальная полка из старого стула.</value>
+  </data>
+  <data name="String167" xml:space="preserve">
+    <value>Из старого рояля можно сделать фонтан для сада.</value>
+  </data>
+  <data name="String168" xml:space="preserve">
+    <value>Для того чтобы отвадить дрозофил, вам понадобится яблочный уксус. Налейте немного в стакан, добавьте каплю-другую жидкости для мытья посуды и увидите, как мошки начнут тонуть в этой ловушке одна за другой.</value>
+  </data>
+  <data name="String169" xml:space="preserve">
+    <value>Масло из холодильника – это камень, который не желает намазываться на хлеб, а ждать, особенно по утрам, некогда. Решение – тёрка для сыра. Натрите масло на хлеб или тост, и оно моментально оттает.</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>В поездках смартфон можно подзарядить от usb-входа телевизора.</value>
+  </data>
+  <data name="String170" xml:space="preserve">
+    <value>Не храните лук с картофелем – он быстрее испортится. В прохладном сухом месте с хорошей циркуляцией воздуха лук продержится 2-3 месяца.</value>
+  </data>
+  <data name="String171" xml:space="preserve">
+    <value>Избавиться от надоедливых насекомых просто: киньте в огонь веточку хвойного растения.</value>
+  </data>
+  <data name="String172" xml:space="preserve">
+    <value>Достаточно потереть несколько раз иголку, скрепку или булавку об одежду и положить её на листик, плавающий на воде. Она укажет на север.</value>
+  </data>
+  <data name="String173" xml:space="preserve">
+    <value>Налейте в жестяную банку растительного масла и в качестве фитиля используйте пропитанную этим же маслом тряпочку. Такой импровизированный факел продержится много часов.</value>
+  </data>
+  <data name="String174" xml:space="preserve">
+    <value>Свежие чернильные пятна на одежде быстро сводятся молоком.</value>
+  </data>
+  <data name="String175" xml:space="preserve">
+    <value>Пищевая сода способна подсушивать раздраженную кожу, заменять скраб и отбеливать зубы.</value>
+  </data>
+  <data name="String176" xml:space="preserve">
+    <value>Очистить кожу от супер-клея можно при помощи пилочки для ногтей.</value>
+  </data>
+  <data name="String177" xml:space="preserve">
+    <value>Причиной прыщей часто становятся немытые подушки. Кладите перед сном на подушку свежестиранное полотенце, и через несколько недель от ваших прыщей не останется и следа.</value>
+  </data>
+  <data name="String178" xml:space="preserve">
+    <value>Чипсы будут вкуснее если открывать упаковку снизу. Специи равномерно опустятся и полностью покроют все чипсы.</value>
+  </data>
+  <data name="String179" xml:space="preserve">
+    <value>Cкотч делает прозрачным матовое стекло.</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>Колонка для смартфона своими руками.</value>
+  </data>
+  <data name="String180" xml:space="preserve">
+    <value>Сделать любой глянцевый лак матовым можно, подержав только что накрашенные ногти над паром.</value>
+  </data>
+  <data name="String181" xml:space="preserve">
+    <value>Чтобы избавиться от неприятного запаха, положите в обувь чайные пакетики.</value>
+  </data>
+  <data name="String182" xml:space="preserve">
+    <value>Если у вас не оказалось смягчителя для белья, замените его бальзамом для волос. Их действие идентично.</value>
+  </data>
+  <data name="String183" xml:space="preserve">
+    <value>Чтобы свечи горели дольше, перед тем, как зажечь их, поместите в морозилку на несколько часов.</value>
+  </data>
+  <data name="String184" xml:space="preserve">
+    <value>Вкус чая намного лучше, если сахар добавлять, когда заварка полностью заварилась. Кроме того, никогда не заваривайте чай кипятком! Это тоже сильно портит вкус напитка.</value>
+  </data>
+  <data name="String185" xml:space="preserve">
+    <value>Вместо дюбеля можно использовать кусочек карандаша.</value>
+  </data>
+  <data name="String186" xml:space="preserve">
+    <value>Пищевая соль облегчит заточку ножей, если предварительно на полчаса опустить их лезвия в слабый соляной раствор.</value>
+  </data>
+  <data name="String187" xml:space="preserve">
+    <value>Разбивайте большие и сложные задачи на более мелкие. Так легче и быстрее достигнуть поставленной цели.</value>
+  </data>
+  <data name="String188" xml:space="preserve">
+    <value>Золотые вещи по истечении некоторого времени утрачивают блеск. Но всегда им можно вернуть прежний вид. Наберите в стакан воды, в нее добавьте две чайные ложки сахара и дайте отстояться раствору около двух часов.</value>
+  </data>
+  <data name="String189" xml:space="preserve">
+    <value>Если вам надо тонко нарезать мясо, то перед этим просто заморозьте его.</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>Переведите смартфон в режим полета и играйте в игры без рекламы.</value>
+  </data>
+  <data name="String190" xml:space="preserve">
+    <value>Грецкие орехи легко очистить от кожуры, прогрев их в воде четыре - пять минут на полной мощности.</value>
+  </data>
+  <data name="String191" xml:space="preserve">
+    <value>Натрите замороженное сливочное масло на терке, чтобы равномерно распределить его, добавляя в тесто.</value>
+  </data>
+  <data name="String192" xml:space="preserve">
+    <value>Чтобы освежить аромат молотых специй и приправ, разогрейте их на полной мощности тридцать секунд.</value>
+  </data>
+  <data name="String193" xml:space="preserve">
+    <value>Замочите лапшу на ночь в пакете для её быстрого приготовления на следующий день, минута — и готово.</value>
+  </data>
+  <data name="String194" xml:space="preserve">
+    <value>Для того чтобы по колготкам не поползли стрелки, достаточно сбрызнуть их лаком для волос.</value>
+  </data>
+  <data name="String195" xml:space="preserve">
+    <value>Кеды лучше всего мыть смесью из соды и стирального порошка при помощи зубной щётки.</value>
+  </data>
+  <data name="String196" xml:space="preserve">
+    <value>Подождите пять минут перед тем, как надеть свежевыглаженную вещь, иначе она моментально помнётся снова.</value>
+  </data>
+  <data name="String197" xml:space="preserve">
+    <value>Апельсин или грейпфрут легко очистить от белой мякоти, если их прогреть в течение тридцати секунд на полной мощности.</value>
+  </data>
+  <data name="String198" xml:space="preserve">
+    <value>Если вы случайно испачкали руки клеем "Момент", то снять его можно при помощи маргарина. Для этого нужно намазать грязное место и подождать несколько минут.</value>
+  </data>
+  <data name="String199" xml:space="preserve">
+    <value>Хорошо отжатое белье развешивают на туго натянутой веревке, перед развешиванием его выворачивают наизнанку. Сушку белого белья на солнце нужно предпочесть всякой другой, тогда оно хорошо проветривается, отбеливается и приобретает приятный аромат.</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Поставьте телефон в режим полета, и он зарядится в два раза быстрее.</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>Нет держателя для стаканов? Не проблема.</value>
+  </data>
+  <data name="String200" xml:space="preserve">
+    <value>Для того чтобы у вас "не убежало" молоко при кипячении, нужно смазать внутренние края кастрюли маслом или жиром.</value>
+  </data>
+  <data name="String201" xml:space="preserve">
+    <value>Пора избавиться от соседства муравьев, живущих в саду и вокруг фундамента дома. Смешайте в блендере несколько апельсиновых корок с чашкой теплой воды до консистенции однородного пюре. Медленно лейте раствор на муравейник, чтобы насекомые убрались подальше.</value>
+  </data>
+  <data name="String202" xml:space="preserve">
+    <value>Чтобы загрузить видео с YouTube, вставьте «ss» в URL между www. и youtube и нажмите «Enter».</value>
+  </data>
+  <data name="String203" xml:space="preserve">
+    <value>Чтобы тёмные джинсы не выцвели, добавьте в конце стирки немного уксуса в воду (примерно полстакана).</value>
+  </data>
+  <data name="String204" xml:space="preserve">
+    <value>Не позволяйте мышам проводить зимние каникулы в вашем гараже. Разложите вокруг гаража шарики от моли, и мыши уйдут искать другое пристанище. Чтобы мыши не проникли в теплицу, разложите шарики вокруг основания укрытых на зиму растений.</value>
+  </data>
+  <data name="String205" xml:space="preserve">
+    <value>Чтобы быстро развесить футболки, нанижите их на руку через горловину и затем вдевайте в них вешалки одну за другой.</value>
+  </data>
+  <data name="String206" xml:space="preserve">
+    <value>Микроволновая печь поможет выдавить сок из лимона или апельсина практически до капельки даже при очень толстой кожуре цитрусовых. Прогрейте фрукты несколько минут в микроволновке, дайте остыть, и вы с легкостью выжмете из них сок.</value>
+  </data>
+  <data name="String207" xml:space="preserve">
+    <value>Для того чтобы ваш хлеб дольше сохранился, рядом с ним нужно положить кусочек картофеля, яблока или немного соли.</value>
+  </data>
+  <data name="String208" xml:space="preserve">
+    <value>Никогда не сушите влажную обувь у огня, на батарее центрального отопления или у других источников тепла. В этих случаях кожа высыхает слишком быстро, съеживается и растрескивается. Сушите обувь в сухом месте, плотно набив ее старыми газетами.</value>
+  </data>
+  <data name="String209" xml:space="preserve">
+    <value>Чтобы на футболке не осталось пятен от пота, обрызгайте её перед стиркой лимонным соком. Особенно это касается серых футболок, которые имеют тенденцию быстрее менять цвет в местах, куда попадает пот.</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>Крепкий кофе можно заморозить в формочках для льда, а потом просто добавлять его в молоко.</value>
+  </data>
+  <data name="String210" xml:space="preserve">
+    <value>Для того чтобы свёкла быстро сварилась, ее нужно прокипятить 20 минут, затем слить воду и залить холодную.</value>
+  </data>
+  <data name="String211" xml:space="preserve">
+    <value>Изделия из шелковых тканей после стирки закатайте в чистую ткань и только после того, как отжата влага, наденьте на плечики и сушите в прохладном месте.</value>
+  </data>
+  <data name="String212" xml:space="preserve">
+    <value>Всем известно, что резка лука часто вызывает слезы. Защитить глаза можно при помощи маски для плавания или же обычных очков. При наличии электровентилятора можно направить на глаза струю воздуха – это тоже поможет избежать слез.</value>
+  </data>
+  <data name="String213" xml:space="preserve">
+    <value>Не можете отвадить “Рекса” от нового дивана? Положите лист фольги на сиденье и после того, как пес попытается лечь на шуршащую подушку, диван уже не покажется ему самым удобным местом для сна.</value>
+  </data>
+  <data name="String214" xml:space="preserve">
+    <value>Зубная паста — прекрасное средство для чистки фар.</value>
+  </data>
+  <data name="String215" xml:space="preserve">
+    <value>Ножницы при крайней необходимости могут заменить крестовую отвёртку.</value>
+  </data>
+  <data name="String216" xml:space="preserve">
+    <value>Положите кусочек стручкового жгучего перца на больной зуб, и боль утихнет.</value>
+  </data>
+  <data name="String217" xml:space="preserve">
+    <value>Контактные линзы сохнут? Закройте глаза и смочите водой веки.</value>
+  </data>
+  <data name="String218" xml:space="preserve">
+    <value>Проверить запах изо рта просто: лизните запястье, подождите несколько секунд и понюхайте.</value>
+  </data>
+  <data name="String219" xml:space="preserve">
+    <value>Положите пару чайных пакетиков в сумку со спортивной одеждой или в обувь – избавитесь от неприятного запаха.</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>Избавьтесь от запаха в холодильнике, переложив овощи газетами.</value>
+  </data>
+  <data name="String220" xml:space="preserve">
+    <value>Перед походом в магазин сфотографируйте содержимое холодильника, чтобы не пришлось мучительно вспоминать, что у вас там осталось, а что надо докупить.</value>
+  </data>
+  <data name="String221" xml:space="preserve">
+    <value>Используйте крышку от бутылочки из-под кетчупа как насадку для пылесоса, чтобы почистить компьютерную клавиатуру, микрофон телефона и другие мелочи.</value>
+  </data>
+  <data name="String222" xml:space="preserve">
+    <value>Если нет бесплатного интернета по wi-fi, интернет может быть в магазинах техники на компьютерах и айпадах.</value>
+  </data>
+  <data name="String223" xml:space="preserve">
+    <value>Если из аэропорта ходят электрички, пройти к которым можно без турникетов, то на них можно проехать зайцем. Первый раз работает амнистия «тупой турист».</value>
+  </data>
+  <data name="String224" xml:space="preserve">
+    <value>Если яйца хранить в холодильнике тупым концом вверх, свежесть их сохраняется дольше.</value>
+  </data>
+  <data name="String225" xml:space="preserve">
+    <value>Чтобы молоко не скисло, добавьте в упаковку щепотку соли сразу после того, как вы её откроете.</value>
+  </data>
+  <data name="String226" xml:space="preserve">
+    <value>Если вы пересолили суп, положите в него очищенную картофелину. Она вберет лишнюю соль.</value>
+  </data>
+  <data name="String227" xml:space="preserve">
+    <value>Если вы случайно закрыли вкладку в браузере, нажмите CTRL+SHIFT+T.</value>
+  </data>
+  <data name="String228" xml:space="preserve">
+    <value>Ставьте ваши любимые песни на звонки от неприятных людей. Так вы сможете игнорировать их звонки и одновременно наслаждаться песней.</value>
+  </data>
+  <data name="String229" xml:space="preserve">
+    <value>Заложен нос? Порежьте лук и поставьте его на ночь на прикроватную тумбочку. Утром вы будете дышать свободно.</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>Поддерживать губку для мытья посуды сухой поможет зажим для бумаг.</value>
+  </data>
+  <data name="String230" xml:space="preserve">
+    <value>Ворс с одежды можно легко снять скотчем.</value>
+  </data>
+  <data name="String231" xml:space="preserve">
+    <value>Если при варке пасты или макарон добавить в кастрюлю столовую ложку оливкового масла и перемешать, то макароны точно не слипнутся.</value>
+  </data>
+  <data name="String232" xml:space="preserve">
+    <value>Если в вазу с фруктами положить лимон, то фрукты дольше останутся свежими.</value>
+  </data>
+  <data name="String233" xml:space="preserve">
+    <value>Чтобы не горело сливочное масло, на котором вы готовите, добавьте в него немного растительного.</value>
+  </data>
+  <data name="String234" xml:space="preserve">
+    <value>Суперклей с кожи можно снять соком мандарина.</value>
+  </data>
+  <data name="String235" xml:space="preserve">
+    <value>Чтобы мухи не залетали в окно, смажьте оконные рамы уксусом.</value>
+  </data>
+  <data name="String236" xml:space="preserve">
+    <value>Если вы хотите, чтобы в вашей квартире был приятный запах, проварите несколько минут в воде лимонные корки.</value>
+  </data>
+  <data name="String237" xml:space="preserve">
+    <value>Овощи при варке нужно класть только в кипящую воду.</value>
+  </data>
+  <data name="String238" xml:space="preserve">
+    <value>Для того чтобы хорошо очищалась кожура с молодого картофеля, его перед чисткой нужно положить в соленую холодную воду.</value>
+  </data>
+  <data name="String239" xml:space="preserve">
+    <value>Закапать глазные капли деткам на самом деле не такая сложная задача. Попросите ребёнка прилечь и закрыть глаза, затем капните средство на внутренние уголки глаз и попросите ребёнка тут же открыть глазки — средство незамедлительно попадёт на глазное яблоко.</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>Алюминиевая фольга прекрасно подходит для удаления присохших пятен со стеклянной посуды. Сомните фольгу в шарик и используйте его вместо обычной губки для посуды.</value>
+  </data>
+  <data name="String240" xml:space="preserve">
+    <value>Если перевернуть тостер на бок, то можно поджаривать тосты с сыром.</value>
+  </data>
+  <data name="String241" xml:space="preserve">
+    <value>Подушка из веревки.</value>
+  </data>
+  <data name="String242" xml:space="preserve">
+    <value>Залоснившиеся воротники шерстяных вещей можно очистить тряпочкой, смоченной в горячем уксусе. Блеск исчезнет.</value>
+  </data>
+  <data name="String243" xml:space="preserve">
+    <value>Раствором нашатырного спирта с водой (1 часть спирта на 4 части воды) можно чистить замшевые изделия.</value>
+  </data>
+  <data name="String244" xml:space="preserve">
+    <value>Твердый сыр из холодильника лучше резать нагретым в кипятке ножом. Срезы будут очень аккуратными, а сам процесс относительно легким.</value>
+  </data>
+  <data name="String245" xml:space="preserve">
+    <value>Мойте петрушку не в холодной воде, а в теплой - она будет ароматнее.</value>
+  </data>
+  <data name="String246" xml:space="preserve">
+    <value>Не жарьте на оливковом масле. Все его полезные свойства исчезают на сковороде.</value>
+  </data>
+  <data name="String247" xml:space="preserve">
+    <value>Ворс на замшевой обуви можно освежить, если подержать туфли над струей пара.</value>
+  </data>
+  <data name="String248" xml:space="preserve">
+    <value>Готовясь к Новому году, приберегите силы для празднования.</value>
+  </data>
+  <data name="String249" xml:space="preserve">
+    <value>Чтобы после нарезки лука руки не пахли, слегка протрите их солью.</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>Кожица цитрусовых с небольшим количеством соли прекрасно ототрёт пятна на кофейных чашках.</value>
+  </data>
+  <data name="String250" xml:space="preserve">
+    <value>Жир при жарении меньше разбрызгивается, если на сковородку посыпать немного соли.</value>
+  </data>
+  <data name="String251" xml:space="preserve">
+    <value>Если ваши деревянные полы скрипят, посыпьте места стыка деревянных панелей детской присыпкой и хорошенько прометите полы. Присыпка попадёт в щели и смягчит или полностью избавит вас от скрипящих полов.</value>
+  </data>
+  <data name="String252" xml:space="preserve">
+    <value>Пожарили рыбу и кажется, что вся кухня пропитана тяжёлым запахом? Налейте на дно сковороды немного уксуса (9% столовый) и вскипятите его. Уксус уберёт запах рыбы не только со сковороды, но и очистит воздух вашей кухни.</value>
+  </data>
+  <data name="String253" xml:space="preserve">
+    <value>Купили кондиционер для волос, а он не подошел вам или просто не понравился? Используйте его для депиляции — бритвенный станок будет скользить очень мягко благодаря кондиционеру, а кожа после него станет очень мягкой и гладкой.</value>
+  </data>
+  <data name="String254" xml:space="preserve">
+    <value>Купите несколько теннисных мячиков и загружайте их в барабан стиральной машины при стирке — они сделают процесс стирки и отжима более эффективным.</value>
+  </data>
+  <data name="String255" xml:space="preserve">
+    <value>Для того, чтобы герметично запечатать открытую пластиковую упаковку, используйте верхнюю часть пластиковой бутылки с крышкой.</value>
+  </data>
+  <data name="String256" xml:space="preserve">
+    <value>Накипь с чайника можно удалить без проблем, вскипятив в нём упаковку лимонной кислоты.</value>
+  </data>
+  <data name="String257" xml:space="preserve">
+    <value>Если рамки для фотографий или картин царапают стены, приклейте на них ластики от карандашей.</value>
+  </data>
+  <data name="String258" xml:space="preserve">
+    <value>Косточку из вишни и черешни легко удалить при помощи соломинки.</value>
+  </data>
+  <data name="String259" xml:space="preserve">
+    <value>Заморозьте сок алоэ в ячейках для льда и используйте полученное средство в косметических целях. Например, для быстрой помощи при солнечном ожоге.</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>Оторвать ценник, не оставив и следа на изделии, поможет обычный фен — подержите место с приклеенным ценником перед горячей струей воздуха и резко оторвите ценник.</value>
+  </data>
+  <data name="String260" xml:space="preserve">
+    <value>Чтобы помыть окна, разведите уксус и воду 1:5, нанесите на стекло и протрите газетами или мягкой тряпкой. Уксус можно заменить лимонным соком.</value>
+  </data>
+  <data name="String261" xml:space="preserve">
+    <value>Нашатырным спиртом легко можно вывести пятна йода.</value>
+  </data>
+  <data name="String262" xml:space="preserve">
+    <value>Чтобы аккуратно спаять мелкие детали, прикрепите к паяльнику лупу.</value>
+  </data>
+  <data name="String263" xml:space="preserve">
+    <value>Прочищая водосток ванны, не забудьте надежно «заглушить» верхнее переливное отверстие (хотя бы с помощью мокрой тряпки).</value>
+  </data>
+  <data name="String264" xml:space="preserve">
+    <value>Ножницами по металлу станет работать гораздо удобнее, если к ручке прикрепить кожаную петлю. Ее надевают на пальцы, и тогда можно резать одной рукой.</value>
+  </data>
+  <data name="String265" xml:space="preserve">
+    <value>Не пожалейте труда для того, чтобы вырезать небольшое гнездо в деревянном брусочке. Брусочек сэкономит вам немало сил и избавит от возможных травм, когда придется вбивать гвозди в деревянные изделия или накернивать металлические детали.</value>
+  </data>
+  <data name="String266" xml:space="preserve">
+    <value>Срок службы киянки увеличится, если обмотать ее изоляционной лентой.</value>
+  </data>
+  <data name="String267" xml:space="preserve">
+    <value>Переливать жидкость из флакона с узким горлом удобно при помощи вязальной спицы.</value>
+  </data>
+  <data name="String268" xml:space="preserve">
+    <value>Вот чисто мужской совет, как не имея совка собрать мусор с пола. Нужно взять газету, намочить ее кромку и прилепить к полу. После этого веником можно смести на нее весь мусор до последней пылинки.</value>
+  </data>
+  <data name="String269" xml:space="preserve">
+    <value>Подчас бывает не так-то просто открыть банку с гуталином. Поставьте ее на ребро и, слегка надавливая ногой, покатайте по полу взад-вперед. «Упрямая» банка легко откроется.</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>Идея для батареи в детской.</value>
+  </data>
+  <data name="String270" xml:space="preserve">
+    <value>Если в пластмассовую пробку от ванны вставить магнит, ее можно прикреплять в любом удобном месте.</value>
+  </data>
+  <data name="String271" xml:space="preserve">
+    <value>Цветную капусту нельзя хранить в светлых местах. Она приобретает неприятный вкус и темнеет. Сухое и темное место – идеально для хранения.</value>
+  </data>
+  <data name="String272" xml:space="preserve">
+    <value>При необходимости удалить кожицу со свежих помидоров, можно обдать плоды кипятком и сразу погрузить в холодную воду. Кожура легко отделится от мякоти.</value>
+  </data>
+  <data name="String273" xml:space="preserve">
+    <value>Для того, чтобы место среза колбасы (копченой или вареной) не заветривалось и не пересыхало, его нужно намазать любым жиром или положить тонкий ломтик лимона.</value>
+  </data>
+  <data name="String274" xml:space="preserve">
+    <value>Если не знаете, что подарить девушке, скажите ей, будто купили ей подарок и предложите отгадать, какой. Она сама вам все расскажет.</value>
+  </data>
+  <data name="String275" xml:space="preserve">
+    <value>В магазинах самые дешёвые товары находятся ниже и выше линии зрения.</value>
+  </data>
+  <data name="String276" xml:space="preserve">
+    <value>Чтобы вашу машину не эвакуировали, просто выверните руль до упора. Ни закатить, ни за колёса поднять.</value>
+  </data>
+  <data name="String277" xml:space="preserve">
+    <value>Чтобы не плакать, когда режешь лук, жуй жвачку.</value>
+  </data>
+  <data name="String278" xml:space="preserve">
+    <value>Сделайте небольшой узелок на одном из наушников, чтобы никогда не путать левый с правым.</value>
+  </data>
+  <data name="String279" xml:space="preserve">
+    <value>При покупке апельсинов и грейпфрутов обращайте внимание на вес фрукта. Неважно, какой у него размер — чем тяжелее фрукт, тем он сочнее и вкуснее.</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>Приделываете небольшой магнитик к ручке молотка и туда цепляете гвозди. Больше они не будут вываливаться у вас из рук, пока что-то прибиваете.</value>
+  </data>
+  <data name="String280" xml:space="preserve">
+    <value>Если нужно быстро остудить горячий чай или кофе, положите в чашку с чаем 3-4 чайных ложки или 1-2 столовых.</value>
+  </data>
+  <data name="String281" xml:space="preserve">
+    <value>Если вас когда-нибудь застукают за унизительным занятием, скажите, что вы проиграли спор.</value>
+  </data>
+  <data name="String282" xml:space="preserve">
+    <value>Чтобы не забыть какую-то вещь при выходе из дома, положите её в обувь.</value>
+  </data>
+  <data name="String283" xml:space="preserve">
+    <value>Ломтик белого хлеба удалит сальные отпечатки пальцев со стены и с обоев.</value>
+  </data>
+  <data name="String284" xml:space="preserve">
+    <value>Зубная нить поможет накрепко пришить кнопки и пуговицы, а также отремонтировать зонты и рюкзаки.</value>
+  </data>
+  <data name="String285" xml:space="preserve">
+    <value>Кетчуп очистит серебряные украшения, если опустить их в миску с ним на несколько минут, а затем почистить старой зубной щеткой.</value>
+  </data>
+  <data name="String286" xml:space="preserve">
+    <value>В воду, в которой варится рис, влейте столовую ложку уксуса - и рис станет белоснежным, рассыпчатым.</value>
+  </data>
+  <data name="String287" xml:space="preserve">
+    <value>Винегрет приобретет тонкий и приятный вкус, если влить в него 1 ст.л. молока и добавить 1 ч.л. сахара.</value>
+  </data>
+  <data name="String288" xml:space="preserve">
+    <value>Щепотка соли, добавленная в кофе перед концом варки, придает напитку особый вкус и аромат.</value>
+  </data>
+  <data name="String289" xml:space="preserve">
+    <value>2 кусочка сахара, предварительно растворенные в небольшом количестве уксуса, могут заменить в соусе белое вино.</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>Если стаканчики дома кончились (или на даче), то в качестве держателя зубных щеток можно использовать обычные прищепки.</value>
+  </data>
+  <data name="String290" xml:space="preserve">
+    <value>Для предохранения открытой томатной пасты от плесени нужно на крышку нанести немного сухой горчицы.</value>
+  </data>
+  <data name="String291" xml:space="preserve">
+    <value>Делая ремонт, учтите, что комната выглядят выше, если обои наклеены без зазора до самого потолка.</value>
+  </data>
+  <data name="String292" xml:space="preserve">
+    <value>Вздутия на обоях устраняются, если после высыхания их прогладить слегка нагретым утюгом.</value>
+  </data>
+  <data name="String293" xml:space="preserve">
+    <value>Изделия из меди хорошо чистить сырым картофелем.</value>
+  </data>
+  <data name="String294" xml:space="preserve">
+    <value>Если новый веник опустить в горячую подсоленную воду или замочить в соленой воде на 2-3 часа, он прослужит дольше.</value>
+  </data>
+  <data name="String295" xml:space="preserve">
+    <value>Чтобы удалить нагар на конфорках, прокалите их на сильном огне. Не забудьте при этом открыть окно.</value>
+  </data>
+  <data name="String296" xml:space="preserve">
+    <value>Чтобы стереть следы фломастера с деревянной лакированной поверхности, побрызгайте испачканные места лаком для волос и протрите их сухой тряпочкой.</value>
+  </data>
+  <data name="String297" xml:space="preserve">
+    <value>В муке и крупах не заведутся жучки, если положить в банки и пакеты, где они хранятся, лавровый лист.</value>
+  </data>
+  <data name="String298" xml:space="preserve">
+    <value>Легко заправить одеяло в пододеяльник помогут прищепки. Засунув концы одеяла в углы, фиксируем их прищепками, затем заправляем остальную часть.</value>
+  </data>
+  <data name="String299" xml:space="preserve">
+    <value>Хочешь сделать цветное белье ярче? Добавь в воду для стирки 2–3 столовые ложки соли.</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Кладите старые газеты на дно мусорного ведра, они будут впитывать жидкость от пищи.</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>Прибиваете одну такую жердочку, и проблема с хранением большинства моющих средств у вас отпадет.</value>
+  </data>
+  <data name="String300" xml:space="preserve">
+    <value>Если вам названивает скрытый номер, отключите телефон и получите уведомление о пропущенном звонке с номером абонента.</value>
+  </data>
+  <data name="String301" xml:space="preserve">
+    <value>Чтобы быстрее высушить лак, опустите ногти в холодную воду на три минуты. Он полностью высохнет за это время.</value>
+  </data>
+  <data name="String302" xml:space="preserve">
+    <value>Если карандаш буквально царапает веки, подержите его кончик над пламенем, и он станет мягким.</value>
+  </data>
+  <data name="String303" xml:space="preserve">
+    <value>Если побрызгать расческу любимыми духами, от ваших волос будет исходить приятный тонкий аромат.</value>
+  </data>
+  <data name="String304" xml:space="preserve">
+    <value>Если вам не нравится то, что природные масла отделяются от верхней части арахисовой пасты, достаточно перевернуть банку и хранить её вверх дном.</value>
+  </data>
+  <data name="String305" xml:space="preserve">
+    <value>Наверняка вы неправильно используете коробку из-под сока. А ведь если взяться за концы и потянуть их в стороны, сок не будет выплёскиваться из трубочки.</value>
+  </data>
+  <data name="String306" xml:space="preserve">
+    <value>Дрель и щетка для чистки ванной.</value>
+  </data>
+  <data name="String307" xml:space="preserve">
+    <value>Удобный способ хранения свитера.</value>
+  </data>
+  <data name="String308" xml:space="preserve">
+    <value>Как оборудовать ванну для ребенка с помощью корзины.</value>
+  </data>
+  <data name="String309" xml:space="preserve">
+    <value>Скрепка зафиксирует конец ленты.</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>Удалить мелкие царапины с изделий из стекла можно, протерев их тканью с зубной пастой.</value>
+  </data>
+  <data name="String310" xml:space="preserve">
+    <value>Чтобы удобнее было использовать средство в тюбике, когда оно заканчивается, можно зафиксировать его обычной заколкой для волос.</value>
+  </data>
+  <data name="String311" xml:space="preserve">
+    <value>Таблетница — лучший контейнер для украшений.</value>
+  </data>
+  <data name="String312" xml:space="preserve">
+    <value>Выбирайте место около крыла самолёта, там не так сильно чувствуется турбулентность. Места, расположенные у крыла самолёта, обычно менее всего подвержены тряске при полёте из-за особенностей конструкции.</value>
+  </data>
+  <data name="String313" xml:space="preserve">
+    <value>Чтобы доска не скользила, используй бумажные полотенца или салфетки.</value>
+  </data>
+  <data name="String314" xml:space="preserve">
+    <value>Если нужно взбить сливки, просто залей их в банку, закрой крышку и хорошенько встряхни.</value>
+  </data>
+  <data name="String315" xml:space="preserve">
+    <value>Не пачкаются поверхности, чистый перфоратор, снял мешок - и в мусорку.</value>
+  </data>
+  <data name="String316" xml:space="preserve">
+    <value>А это уловка для тех, кто хочет за один заход перенести все купленные продукты до дома.</value>
+  </data>
+  <data name="String317" xml:space="preserve">
+    <value>Есть мороженое на вечеринке будет удобно, если заранее разложить его по порционным формочкам для выпечки кексов и хранить в морозилке.</value>
+  </data>
+  <data name="String318" xml:space="preserve">
+    <value>Используйте разноцветный скотч, чтобы оживить вид стиральной машины.</value>
+  </data>
+  <data name="String319" xml:space="preserve">
+    <value>Ватные палочки и диски удобно хранить в простых стеклянных банках. Будучи выставленными в ряд, емкости выглядят лаконично и стильно.</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>Чтобы очистить подсвечники от налипшего на них воска, положите их в морозильную камеру минут на 20. После этого воск отойдёт без проблем.</value>
+  </data>
+  <data name="String320" xml:space="preserve">
+    <value>Если добавить немного сливочного мороженого в банку с Нутеллой – получится потрясающий микс густого шоколада и освежающего мороженого.</value>
+  </data>
+  <data name="String321" xml:space="preserve">
+    <value>Краска не будет пачкать края банки, если резинкой перетянуть банку.</value>
+  </data>
+  <data name="String322" xml:space="preserve">
+    <value>Необычный органайзер из щеток.</value>
+  </data>
+  <data name="String323" xml:space="preserve">
+    <value>Крушки этих обычных банок прикручены к столу снизу. Прекрасное место хранения не только штучек мужа, можно и заколки от волос спрятать.</value>
+  </data>
+  <data name="String324" xml:space="preserve">
+    <value>Покрасьте внутреннюю часть колец прозрачным лаком – на пальцах не будут оставаться зеленые пятна.</value>
+  </data>
+  <data name="String325" xml:space="preserve">
+    <value>Если предстоит грязная работа — хорошенько намыльте руки мылом и дайте высохнуть.Тогда мыло образует пленку и загрязнения будут хуже прилипать к коже. Затем всю грязь будет много проще смыть водой.</value>
+  </data>
+  <data name="String326" xml:space="preserve">
+    <value>Наверняка у каждого такое было - пытаешься застегнуть браслет, а концы выскальзывают из пальцев. Решение этой проблемы на фото.</value>
+  </data>
+  <data name="String327" xml:space="preserve">
+    <value>Используйте хлеб и зубочистки, чтоб сохранить торжественный торт.</value>
+  </data>
+  <data name="String328" xml:space="preserve">
+    <value>Нужна лейка?Используйте пластиковую бутылку.</value>
+  </data>
+  <data name="String329" xml:space="preserve">
+    <value>Ненавидишь крошки от хлопьев? Используй дуршлаг.</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>Вдеть нитку в иголку будет легко, если сбрызнуть кончик лаком для волос.</value>
+  </data>
+  <data name="String330" xml:space="preserve">
+    <value>Штопор не понадобится.</value>
+  </data>
+  <data name="String331" xml:space="preserve">
+    <value>Если обернуть ножки бананов пищевой пленкой, они продержатся почти на неделю дольше.</value>
+  </data>
+  <data name="String332" xml:space="preserve">
+    <value>Как красиво завязать шарф.</value>
+  </data>
+  <data name="String333" xml:space="preserve">
+    <value>Не каждая женщина знает, что хранение лака для ногтей требует особого подхода. Перед тем как закрыть флакон с лаком, подышите в него: воздух вытеснится углекислым газом, и лак дольше не загустеет.</value>
+  </data>
+  <data name="String334" xml:space="preserve">
+    <value>Чтобы лестницей не поцарапать стены и не испортить обои, наденьте носки на ее верхние концы.</value>
+  </data>
+  <data name="String335" xml:space="preserve">
+    <value>Забить гвоздь в тонкую дощечку и не расколоть ее можно, если перед этим его слегка притупить.</value>
+  </data>
+  <data name="String336" xml:space="preserve">
+    <value>Затупившуюся терку можно снова сделать острой, если потереть ее наждачной бумагой.</value>
+  </data>
+  <data name="String337" xml:space="preserve">
+    <value>Рюмки и бокалы на полке серванта могут занять меньше места, если, сэкономив пространство, расставить их поочередно вверх и вниз дном.</value>
+  </data>
+  <data name="String338" xml:space="preserve">
+    <value>Протирая стекла очков, не забудьте очистить от накопившихся загрязнений и дужку. Очки перестанут сползать с носа.</value>
+  </data>
+  <data name="String339" xml:space="preserve">
+    <value>Развязывая туго затянутый узел, припудрите его тальком (детской присыпкой). Веревка станет скользкой и легче развяжется.</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>Если вам нужно отмерить нужное количество мёда при помощи мерной ложки или стакана, предварительно смажьте инструмент растительным маслом, чтобы мёд на нём не остался.</value>
+  </data>
+  <data name="String340" xml:space="preserve">
+    <value>Чтобы старый шуруп легче было вывернуть из древесины, нужно нагреть его электропаяльником.</value>
+  </data>
+  <data name="String341" xml:space="preserve">
+    <value>Способ изготовить панировочные сухари из мягкого хлеба: заморозьте кусок хлеба в морозильнике, а потом натрите его на терке.</value>
+  </data>
+  <data name="String342" xml:space="preserve">
+    <value>Как быстро удалить косточку из оливки? При помощи ножа с широким лезвием. Сильным ударом легко и быстро можно отделить мякоть от косточки.</value>
+  </data>
+  <data name="String343" xml:space="preserve">
+    <value>Не варите каши в эмалированной посуде, так как каши в ней пригорают.</value>
+  </data>
+  <data name="String344" xml:space="preserve">
+    <value>Чтобы определить, впору ли будут покупаемые носки, оберните их вокруг кулака. Если пятка сошлась с носком - берите смело.</value>
+  </data>
+  <data name="String345" xml:space="preserve">
+    <value>Чтобы мелко порезать чернослив, используйте ножницы. Замоченный чернослив очень неудобно резать ножом, зато ножницами - легко и просто.</value>
+  </data>
+  <data name="String346" xml:space="preserve">
+    <value>Если у ваших часов запотело стекло изнутри, положите их на ночь в соль. Соль обладает высокой гигроскопичностью и буквально "высосет" из часов влагу.</value>
+  </data>
+  <data name="String347" xml:space="preserve">
+    <value>Если летом жарко спать, подержите наволочки от подушек минут 10-15 в холодильнике, а еще лучше - в морозилке. Заснете мгновенно.</value>
+  </data>
+  <data name="String348" xml:space="preserve">
+    <value>Нераскрывшихся зернышек попкорна будет меньше, если перед приготовлением в микроволновке высыпать их в чашу и накрыть тарелкой.</value>
+  </data>
+  <data name="String349" xml:space="preserve">
+    <value>Чтобы рыба на гриле была вкуснее и не прилипала к нему, жарьте ее на лимонах.</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>Когда моете окна, протирайте их вертикально внутри и горизонтально снаружи. Если после окончания работы вы увидите полосы, то будете знать, с какой они стороны.</value>
+  </data>
+  <data name="String350" xml:space="preserve">
+    <value>При помощи ложечки можно очистить корень имбиря. Это более безопасно и удобно, чем чистить имбирь ножом.</value>
+  </data>
+  <data name="String351" xml:space="preserve">
+    <value>Если пригорела кастрюля, нужно налить в нее крепкий раствор соли, через несколько часов вскипятить, а затем уже отчищать.</value>
+  </data>
+  <data name="String352" xml:space="preserve">
+    <value>Есть старые вилки? Все еще собираетесь выбросить?</value>
+  </data>
+  <data name="String353" xml:space="preserve">
+    <value>Как грамотно использовать кота? Лучшая подставка под планшетный компьютер :)</value>
+  </data>
+  <data name="String354" xml:space="preserve">
+    <value>Просроченный аспирин, которого у многих в аптечке точно с избытком, можно использовать для чистки унитаза: опустите таблетки в воду и смойте через 10-15 минут.</value>
+  </data>
+  <data name="String355" xml:space="preserve">
+    <value>Медицинский шприц (конечно же, новый) может вполне заменить кондитерский: положите в него крем и творите!</value>
+  </data>
+  <data name="String356" xml:space="preserve">
+    <value>Хранить декоративную косметику очень удобно в школьном пенале.</value>
+  </data>
+  <data name="String357" xml:space="preserve">
+    <value>Cредство для полоскания рта можно добавлять в воду с цветами: они убивают микробов и продлевают жизнь букету.</value>
+  </data>
+  <data name="String358" xml:space="preserve">
+    <value>Духи продержатся гораздо дольше, если участки кожи, на которые Вы будете их наносить, предварительно помазать обычным вазелином.</value>
+  </data>
+  <data name="String359" xml:space="preserve">
+    <value>Ткань, которая используется для теннисного мячика, отлично впитывает жир. Поэтому если Вы пустите его ванну во время купания, он соберет жир, и мыть ванну будет гораздо проще.</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>Удалите белые пятна соли с кожаной обуви при помощи раствора из одной столовой ложки уксуса и стакана воды.</value>
+  </data>
+  <data name="String360" xml:space="preserve">
+    <value>Чтобы из напитков не выходил газ (например, из шампанского, когда пробка уже открыта), закройте горлышко ватой: она удержит «пузырьки» внутри.</value>
+  </data>
+  <data name="String361" xml:space="preserve">
+    <value>Чтобы без боли снять с раны лейкопластырь, пропитайте его водкой. Она растворит клей.</value>
+  </data>
+  <data name="String362" xml:space="preserve">
+    <value>Чайный и кофейный налет с чашек удаляют влажной губкой с солью.</value>
+  </data>
+  <data name="String363" xml:space="preserve">
+    <value>Муравьи не любят запахи петрушки, лука, чеснока, листьев бузины, дикой мяты, полыни.</value>
+  </data>
+  <data name="String364" xml:space="preserve">
+    <value>Грелка дольше будет горячей, если в воду добавить немного соли.</value>
+  </data>
+  <data name="String365" xml:space="preserve">
+    <value>Примятые мебелью участки на ковре можно вернуть в прежнее состояние, «причесав» их вилкой.</value>
+  </data>
+  <data name="String366" xml:space="preserve">
+    <value>Складывайте кредитки в кошелёк «вверх ногами» - так их легче доставать.</value>
+  </data>
+  <data name="String367" xml:space="preserve">
+    <value>Мусорные пакеты можно хранить в контейнерах из-под влажных салфеток.</value>
+  </data>
+  <data name="String368" xml:space="preserve">
+    <value>Чистый совок выручит, если нужно наполнить водой слишком большую, не влезающую под кран ёмкость.</value>
+  </data>
+  <data name="String369" xml:space="preserve">
+    <value>Если вы поставили на одежду жирное пятно, нанесите на него детскую присыпку и оставьте на ночь.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>Чтобы удалить неприятный запах из спортивной обуви, насыпьте в них немного соды и оставьте на день.</value>
+  </data>
+  <data name="String370" xml:space="preserve">
+    <value>Чтобы кожаная куртка стала мягче, намочите её. Или поносите под дождём.</value>
+  </data>
+  <data name="String371" xml:space="preserve">
+    <value>Не кладите цитрусовые и помидоры в холодильник. Низкая температура ухудшает вкус и аромат этих капризных продуктов.</value>
+  </data>
+  <data name="String372" xml:space="preserve">
+    <value>Остатки вина можно заморозить в формочке для льда и потом добавлять в супы и соусы.</value>
+  </data>
+  <data name="String373" xml:space="preserve">
+    <value>Не можете найти занозу? Наклейте на место с занозой кусок клейкой ленты, а затем рывком оторвите – заноза выйдет.</value>
+  </data>
+  <data name="String374" xml:space="preserve">
+    <value>Если алюминиевая кастрюля потускнела, вскипятите в ней немного яблочной кожуры. Кастрюля засверкает, а в доме будет вкусно пахнуть.</value>
+  </data>
+  <data name="String375" xml:space="preserve">
+    <value>Чтобы деревянные ящики (без направляющих) хорошо выдвигались, потрите пазы свечкой.</value>
+  </data>
+  <data name="String376" xml:space="preserve">
+    <value>Изолента — самый простой способ сделать ограничитель для сверла. Отмеряем нужную глубину, обматываем сверло — и можно приступать к делу.</value>
+  </data>
+  <data name="String377" xml:space="preserve">
+    <value>Листья растений не должны касаться оконного стекла. Зимой они могут обмерзнуть, а летом - получить ожог.</value>
+  </data>
+  <data name="String378" xml:space="preserve">
+    <value>Вода после варки яиц отлично подходит для полива растений. В ней содержатся полезные минеральные соли.</value>
+  </data>
+  <data name="String379" xml:space="preserve">
+    <value>Укрепите зеркало над верхней полкой гардероба - тогда вам не придется залезать на стул, чтобы увидеть, что там хранится.</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>Если один стакан застрял в другом – не проблема. Налейте в верхний холодную воду, а затем опустите оба на минуту-другую в горячую.</value>
+  </data>
+  <data name="String380" xml:space="preserve">
+    <value>В качестве временной замены вышедшего из строя поплавка сливного бачка подойдет спринцовка (клизма) соответствующего объёма.</value>
+  </data>
+  <data name="String381" xml:space="preserve">
+    <value>Мешок для стирки подойдёт и для мытья всяких мелочей (вроде детских бутылочек) в посудомоечной машине.</value>
+  </data>
+  <data name="String382" xml:space="preserve">
+    <value>Избавиться от слизняков можно, оставив на участке открытые банки с пивом. Слизняки заползут в ловушку сами.</value>
+  </data>
+  <data name="String383" xml:space="preserve">
+    <value>Отмочите грязные синтетические кисти в горячем уксусе в течение 30 минут, а затем промойте горячей мыльной водой, и они станут как новые.</value>
+  </data>
+  <data name="String384" xml:space="preserve">
+    <value>Неприятный запах с ковра можно удалить, посыпав поверхность содой и пропылесосив через несколько часов.</value>
+  </data>
+  <data name="String385" xml:space="preserve">
+    <value>При отваривании картофеля в мундире не поленитесь несколько раз проколоть кожуру вилкой — так клубни не разварятся.</value>
+  </data>
+  <data name="String386" xml:space="preserve">
+    <value>Если во флакон с шампунем добавить 50 мл водки, это уменьшит жирность волос и ускорит их рост.</value>
+  </data>
+  <data name="String387" xml:space="preserve">
+    <value>Спрайтом легко можно заменить средство для очистки стекол в доме. Он безупречно справится с этой работой.</value>
+  </data>
+  <data name="String388" xml:space="preserve">
+    <value>Когда друг вам изливает душу, вам лучше молчать, а не давать советы.</value>
+  </data>
+  <data name="String389" xml:space="preserve">
+    <value>Сделайте паролем свою цель и вы будете постоянно напоминать себе о ней.</value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>Чтобы получить из апельсина или лимона больше сока, покатайте их по столу прежде чем разрезать.</value>
+  </data>
+  <data name="String390" xml:space="preserve">
+    <value>Прежде чем покупать специальные средства для протирания электронных устройств, попробуйте детские влажные салфетки - они справятся ничуть не хуже.</value>
+  </data>
+  <data name="String391" xml:space="preserve">
+    <value>Пятна от пищевых продуктов удаляют теплой водой, к которой прибавляют нашатырный или денатурированный спирт (1 ст. л. на 1 стакан).</value>
+  </data>
+  <data name="String392" xml:space="preserve">
+    <value>Мягкой водой, то есть не содержащей известковых солей, является атмосферная вода (дождевая, снеговая). Она наиболее пригодна для стирки.</value>
+  </data>
+  <data name="String393" xml:space="preserve">
+    <value>Лимонная кислота подсушивает слои теста при выпечке, а сметана придает изделиям тонкий вкус и делает хрустящей корочку печенья.</value>
+  </data>
+  <data name="String394" xml:space="preserve">
+    <value>С помощью тряпочки, смоченной в молоке, вы можете удалить свежие чернильные пятна, почистить зеркало, клавиши музыкальных инструментов, рамы картин.</value>
+  </data>
+  <data name="String395" xml:space="preserve">
+    <value>Если не удается открыть стеклянную банку с консервами, ее окунают на несколько минут крышкой вниз в горячую воду, после чего банка легко открывается.</value>
+  </data>
+  <data name="String396" xml:space="preserve">
+    <value>Крепкий раствор соли поможет очистить замёрзшие оконные стёкла.</value>
+  </data>
+  <data name="String397" xml:space="preserve">
+    <value>Стёкла автомобиля не запотеют, если их протереть влажной солью, завёрнутой в марлю.</value>
+  </data>
+  <data name="String398" xml:space="preserve">
+    <value>Складка на брюках держится дольше, если её протереть с изнанки сухим мылом, а затем прогладить.</value>
+  </data>
+  <data name="String399" xml:space="preserve">
+    <value>При сильно загрязненной ванне с известковым налетом можно добавить в воду немного нашатырного спирта, нанести на поверхность на 10 минут, затем смыть горячей водой.</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Любая еда быстрее и лучше разогреется в микроволновке, если в центре сделать пустое место.</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>Для того чтобы белое вино оставалось холодным, заморозьте виноградины и используйте их вместо кубиков льда.</value>
+  </data>
+  <data name="String400" xml:space="preserve">
+    <value>Для устранения сырости в шкафах положите на полку несколько лавровых листиков.</value>
+  </data>
+  <data name="String401" xml:space="preserve">
+    <value>Мыть мясорубку гораздо легче, если в конце пропустить сырой картофель.</value>
+  </data>
+  <data name="String402" xml:space="preserve">
+    <value>Новые стеклянные стаканы не будут биться, если их поставить в сосуд с холодной водой, медленно нагреть ее до кипения и оставить их охлаждаться в той же воде.</value>
+  </data>
+  <data name="String403" xml:space="preserve">
+    <value>В металлической коробке исчезнет неприятный запах, если в ней сжечь несколько спичек.</value>
+  </data>
+  <data name="String404" xml:space="preserve">
+    <value>Микроволновая печь отлично справляется с поджариванием орешков, главное, делать это в несколько коротких этапов (не дольше 1 минуты), каждый раз перемешивая продукт.</value>
+  </data>
+  <data name="String405" xml:space="preserve">
+    <value>Никогда не пытайтесь свести счеты с вашими врагами, потому что этим вы принесете себе гораздо больше вреда, чем им.</value>
+  </data>
+  <data name="String406" xml:space="preserve">
+    <value>Жвачка повышает концентрацию сильнее, чем кофеин, правда, эффект длится всего 20 минут.</value>
+  </data>
+  <data name="String407" xml:space="preserve">
+    <value>Ухаживать за вещами из ангоры или мохера бывает очень проблематично. Чтобы сохранить одежду в её первозданном виде, запечатайте ее в пакет и заморозьте в холодильнике на три часа как минимум. Результат вас удивит.</value>
+  </data>
+  <data name="String408" xml:space="preserve">
+    <value>Если любимая помада сломалось, её можно легко починить. Нагрейте зажигалкой обломанный конец, затем приклейте к нему отпавшую часть и положите помаду на 15-30 минут в холодильник.</value>
+  </data>
+  <data name="String409" xml:space="preserve">
+    <value>Если у вас есть слишком блестящие тени, которые вы купили «как-то раз на праздник» и больше не будете использовать, можно сделать из них яркий лак, добавив в бутылочку с прозрачным лаком.</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>Кулинарные эксперименты довели до пересоленного супа? Не беда! Опустите в кастрюлю очищенную картофелину. Она вберет лишнюю соль, и суп будет спасен.</value>
+  </data>
+  <data name="String410" xml:space="preserve">
+    <value>Застарелую ржавчину на белье можно вывести с помощью соли, растворенной в лимонном соке. Для этого нужно смочить пятно лимонным соком, посыпать тонким слоем соли и оставить на сутки, после чего прополоскать.</value>
+  </data>
+  <data name="String411" xml:space="preserve">
+    <value>Внезапный упадок сил? Ноги стали ватными? — съешьте зелёное яблоко! В него входит большое количество углеводов и железа — эти вещества поднимут вас на ноги.</value>
+  </data>
+  <data name="String412" xml:space="preserve">
+    <value>В целях экономии вместо пунктов обмена валюты в аэропорту пользуйтесь банкоматами. Большинство банкоматов предложат более выгодный курс, чем пункты обмена.</value>
+  </data>
+  <data name="String413" xml:space="preserve">
+    <value>Путешествуя со своим удлинителем, вы станете героем и спасителем в аэропорту.</value>
+  </data>
+  <data name="String414" xml:space="preserve">
+    <value>Для хранения браслетов можно использовать держатель для бумажных полотенец. Выглядит симпатично.</value>
+  </data>
+  <data name="String415" xml:space="preserve">
+    <value>Воздушные шарики можно использовать как хладоэлементы — просто наполните их водой и поместите в морозилку. А потом можно кинуть в корзину с продуктами и ехать два часа по пробкам на дачу.</value>
+  </data>
+  <data name="String416" xml:space="preserve">
+    <value>Путаетесь в проводах? Можно обмотать провод цветными нитками. И смотрится красиво, и не будет запутываться.</value>
+  </data>
+  <data name="String417" xml:space="preserve">
+    <value>Чтобы быстренько прогладить воротник, можно использовать утюжок для волос.</value>
+  </data>
+  <data name="String418" xml:space="preserve">
+    <value>Одноразовый стаканчик, разрезанный пополам, может поработать как усилитель звука для лаптопа. Еще одна идея для спонтанных вечеринок.</value>
+  </data>
+  <data name="String419" xml:space="preserve">
+    <value>Положите мокрую губку в морозильник, потом положите в пакетик с застежкой и используйте потом как хладоэлемент.</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>Чтобы сохранить картошку в лучшей форме, а точнее уберечь ее от прорастания, положите рядом обычное яблоко. Только важно следить за тем, чтобы яблоко не испортилось, поэтому время от времени заменяйте его на свежее.</value>
+  </data>
+  <data name="String420" xml:space="preserve">
+    <value>Положите миску поменьше в большую миску и вам будет удобно срезать зерна кукурузы с початка.</value>
+  </data>
+  <data name="String421" xml:space="preserve">
+    <value>Лайфхак для тех, кто так и не научился есть палочками. Бельевая прищепка вам в помощь.</value>
+  </data>
+  <data name="String422" xml:space="preserve">
+    <value>Если хочется холодного кофе, лучше заморозить его в кубиках, а затем в стакане добавить молоко, сливки или другие компоненты.</value>
+  </data>
+  <data name="String423" xml:space="preserve">
+    <value>Чтобы освободить место в шкафу, вы можете вынуть сушилку и подвесить ее над раковиной.</value>
+  </data>
+  <data name="String424" xml:space="preserve">
+    <value>Во время жарки налейте подсолнечное масло в бутылку из-под кетчупа. Так будет удобнее подливать его, и вы не нальете слишком много.</value>
+  </data>
+  <data name="String425" xml:space="preserve">
+    <value>Офисный органайзер для файлов можно использовать для хранения разделочных досок.</value>
+  </data>
+  <data name="String426" xml:space="preserve">
+    <value>Делаем вкусное мороженое из йогурта.</value>
+  </data>
+  <data name="String427" xml:space="preserve">
+    <value>Замороженный лимон, лайм и прочие цитрусовые отлично подойдут летом к любым напиткам.</value>
+  </data>
+  <data name="String428" xml:space="preserve">
+    <value>Если Вы задумали постирать в машинке кроссовки, то зажмите шнурки дверцей - они не будут так шуметь.</value>
+  </data>
+  <data name="String429" xml:space="preserve">
+    <value>В качестве хлебницы можно использовать коробку из-под торта.</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>Если нужно открыть консервную банку, но вместо консервного ножа есть только обычный, то лучший способ не испортить его — прорезать тонкую крышку консервной банки крест-накрест, после чего отогнуть получившиеся «лепестки» и наслаждаться консервами.</value>
+  </data>
+  <data name="String430" xml:space="preserve">
+    <value>Если ваш собеседник вас утомил своими рассказами, рассмейтесь невпопад. Пока вы будете отвечать на его вопрос о том, что вызвало ваш смех, сменить тему будет исключительно легко.</value>
+  </data>
+  <data name="String431" xml:space="preserve">
+    <value>Замучила икота? Не перебирайте в своих мыслях всех, кто вас сейчас может вспоминать. Просто поднимите руки над головой на несколько минут. Это растягивает диафрагму, отчего икота проходит.</value>
+  </data>
+  <data name="String432" xml:space="preserve">
+    <value>Хотите мыться под музыку? Положите плеер или мобильный телефон в раковину. Её форма позволит значительно усилить звук динамика, так что его будет слышно даже через шум воды.</value>
+  </data>
+  <data name="String433" xml:space="preserve">
+    <value>В легком длинном сарафане в жару будет прохладнее, чем в коротких узких шортах.</value>
+  </data>
+  <data name="String434" xml:space="preserve">
+    <value>Если не можете быстро проснуться – заставьте себя позевать через силу. Это стимулирует приток кислорода и, как следствие, прогоняет сонливость.</value>
+  </data>
+  <data name="String435" xml:space="preserve">
+    <value>Всегда делайте лёд из того же напитка, который вы собираетесь охлаждать – тогда питьё не будет казаться разбавленным, но при этом достаточно охладится.</value>
+  </data>
+  <data name="String436" xml:space="preserve">
+    <value>Придержите туфли на высоком каблуке для особых случаев, а в повседневной жизни отдавайте предпочтение низким каблукам.</value>
+  </data>
+  <data name="String437" xml:space="preserve">
+    <value>Используйте липкий ролик для чистки одежды, чтобы очистить дно вашей сумки от мусора и крошек.</value>
+  </data>
+  <data name="String438" xml:space="preserve">
+    <value>Черный чай поможет избавиться от солнечных ожогов.</value>
+  </data>
+  <data name="String439" xml:space="preserve">
+    <value>Бутылку вина можно открыть при помощи вашего ботинка. Просто постучите донышком о стену.</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>Во время ремонта куча инструментов и баночек, которые нужно куда-то сложить? Из небольшой доски и строительного скотча можно смастерить полку на время ремонта.</value>
+  </data>
+  <data name="String440" xml:space="preserve">
+    <value>Инспектор пытается оштрафовать за то, что у Вас нет знака "Начинающий водитель"? Он действует незаконно - в КоАП нет статьи за его отсутствие.</value>
+  </data>
+  <data name="String441" xml:space="preserve">
+    <value>Легко и быстро очистить клавиатуру поможет листок с липкой поверхностью.</value>
+  </data>
+  <data name="String442" xml:space="preserve">
+    <value>Если у Вас часто проявляется сонливость за рулём, просто положите ненадолго под язык дольку лимона.</value>
+  </data>
+  <data name="String443" xml:space="preserve">
+    <value>Если оторвалась нить на чайном пакетике.</value>
+  </data>
+  <data name="String444" xml:space="preserve">
+    <value>Чтобы узнать возраст девушки, не задавая прямой вопрос, просто узнайте, кто она по восточному календарю. Погрешность +-12 лет. Очень полезный лайфхак, не так ли?</value>
+  </data>
+  <data name="String445" xml:space="preserve">
+    <value>Совет только для мужчин. А вы знаете, что женские станки для бритья намного острее и служат в разы дольше, чем бритва для мужчин?</value>
+  </data>
+  <data name="String446" xml:space="preserve">
+    <value>Если хотите облегчить рабочий процесс, смотрите на работу как на развитие умений в игре.</value>
+  </data>
+  <data name="String447" xml:space="preserve">
+    <value>Используйте сочетание Alt+/ для быстрого поиска нужной функции в меню Google Drive.</value>
+  </data>
+  <data name="String448" xml:space="preserve">
+    <value>Если вы хотите снять деньги в банкомате (в рублях) и получить выдачу из банкомата мелкими купюрами, то снимайте суммой в 400, 900, 1400 или 1900.</value>
+  </data>
+  <data name="String449" xml:space="preserve">
+    <value>Если вы любите готовить спагетти и не знаете, сколько положить макарошек для варки, то вам в помощь горлышко от обычной пластиковой бутылки из-под любой воды или пива. Дозировка на одного человека.</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>Одолжили кому-то вещь, а через некоторое время забыли, кому именно? Выход из этой ситуации элементарен: фотографируй своих друзей вместе с той вещью, которую они берут. Это поможет не забыть самим и напомнить им, когда придёт время возвращать долг.</value>
+  </data>
+  <data name="String450" xml:space="preserve">
+    <value>Размер иконок на рабочем столе в Windows 7/8/8.1 можно менять с помощью мышки. Нажмите кнопку Ctrl и удерживая её, крутите колёсико мышки.</value>
+  </data>
+  <data name="String451" xml:space="preserve">
+    <value>Чтобы кот не драл мебель, его излюбленные места можно обсыпать черным молотым перцем. Главное, не переусердствовать.</value>
+  </data>
+  <data name="String452" xml:space="preserve">
+    <value>Если нужно выучить что-нибудь наизусть, просто повторите этот текст перед сном, поскольку мозг в основном упорядочивает воспоминания именно во сне.</value>
+  </data>
+  <data name="String453" xml:space="preserve">
+    <value>Мучает изжога ночью? Спите на левом боку. Исследования показали, что при таком положении человек меньше страдает от выбросов кислоты в пищевод.</value>
+  </data>
+  <data name="String454" xml:space="preserve">
+    <value>Как убрать царапины с айпада перед продажей? При помощи простейшего полировочного средства — обычной зубной пасты (не отбеливающей). Медленно протирать старой зубной щеткой или ваткой.</value>
+  </data>
+  <data name="String455" xml:space="preserve">
+    <value>При слишком быстрой вычитке текста мозг начинает сам исправлять ошибки. Опытные корректоры читают текст снизу вверх: так внимание переключается с контекста на отдельные слова и фразы, а внимательность повышается.</value>
+  </data>
+  <data name="String456" xml:space="preserve">
+    <value>Старинный, но работающий способ: перед серьёзным застольем выпить две-три столовые ложки оливкового или любого другого масла. На желудке образуется пленка, непроницаемая для алкоголя. Вы все равно напьетесь, но медленнее.</value>
+  </data>
+  <data name="String457" xml:space="preserve">
+    <value>Положите в пепельницу ломтик лимона: он впитает большую часть неприятных запахов.</value>
+  </data>
+  <data name="String458" xml:space="preserve">
+    <value>Если хотите сделать идеальную круглую глазунью, используйте луковое колечко.</value>
+  </data>
+  <data name="String459" xml:space="preserve">
+    <value>Если для работы какого-то прибора у Вас оказались батарейки лишь меньшего размера (например, нужны пальчиковые, а у Вас только мизинчиковые), вставляйте их, а оставшиеся промежутки заполните кусочками фольги. Проверено, работает!</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>Зевать на людях – крайне неприлично. Дотроньтесь до кончика языка пальцем, и зевота мгновенно отступит. Правда, совершенно другой вопрос – насколько прилично при людях дотрагиваться до кончика языка пальцем.</value>
+  </data>
+  <data name="String460" xml:space="preserve">
+    <value>Хорошая смазка для механизма замка — графитовый порошок, который получается при заточке черного карандаша. Порошок вдувают в замочную скважину с помощью бумажной трубочки.</value>
+  </data>
+  <data name="String461" xml:space="preserve">
+    <value>Простейшую экспресс-подставку для паяльника легко сделать из куска мягкой проволоки. </value>
+  </data>
+  <data name="String462" xml:space="preserve">
+    <value>Бывает, что ручка газовой плиты плохо держится на оси. Её надежно закрепит кусочек ластика, помещенный в разрез оси.</value>
+  </data>
+  <data name="String463" xml:space="preserve">
+    <value>Если в раствор цемента добавить сахар, то он станет значительно крепче.</value>
+  </data>
+  <data name="String464" xml:space="preserve">
+    <value>Чтобы пробки на тюбиках и флаконах с клеем свободно отвинчивались после многократного пользования, нужно смазать их резьбу вазелином.</value>
+  </data>
+  <data name="String465" xml:space="preserve">
+    <value>Рыба не перемерзнет, а значит, будет вкуснее, если ее после снятия с крючка сразу положить в рыбацкий ящик, сумку или завалить снегом.</value>
+  </data>
+  <data name="String466" xml:space="preserve">
+    <value>Хранить ковры рекомендуется в сухом месте, свернутыми в рулон. Если предполагается длительное хранение, то время от времени ковры следует разворачивать и просушивать.</value>
+  </data>
+  <data name="String467" xml:space="preserve">
+    <value>Если на обожженную кожу сразу нанести слой мятной зубной пасты, то боль в значительной мере снимается, на месте ожога не образуются волдыри.</value>
+  </data>
+  <data name="String468" xml:space="preserve">
+    <value>Если не получается вспомнить, скажем, сколько лет исполнилось ребенку приятеля, надо просто представить, сколько ему может быть. Скажите наугад. Очень часто мозг в такой ситуации расслабляется и подсовывает правильный ответ, который где-то застрял. Способ описан еще Фрейдом.</value>
+  </data>
+  <data name="String469" xml:space="preserve">
+    <value>Положите луковицу в теплую подсоленную воду перед нарезкой на несколько минут и забудьте про слезы.</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>Энергетики в больших количествах очень вредны для здоровья. Слегка разбавленный свекольный сок точно так же взбодрит вас за счёт содержащихся в нём солей.</value>
+  </data>
+  <data name="String470" xml:space="preserve">
+    <value>Несколько слоев газеты на дне клетки вашего попугайчика, хомячка или кролика значительно облегчат уборку. Также газеты служат отличным наполнителем для кошачьих туалетов.</value>
+  </data>
+  <data name="String471" xml:space="preserve">
+    <value>Подарок, упакованный в газету, необычен и креативен. Если вы дарите подарок спортсмену, заверните его в газету со спортивными новостями, если ребенку - в комиксы, а если подружке, помешанной на нарядах, - в раздел моды.</value>
+  </data>
+  <data name="String472" xml:space="preserve">
+    <value>Чтобы кухонное полотенце не сползало, пришейте к нему застёжку-липучку.</value>
+  </data>
+  <data name="String473" xml:space="preserve">
+    <value>Отмечайте приём лекарств прямо на бутылочке.</value>
+  </data>
+  <data name="String474" xml:space="preserve">
+    <value>Шапочками для душа удобно прикрывать еду.</value>
+  </data>
+  <data name="String475" xml:space="preserve">
+    <value>Вставьте в ручку маленький магнитик и подвесьте к холодильнику – так и она всегда будет под рукой.</value>
+  </data>
+  <data name="String476" xml:space="preserve">
+    <value>Когда вы летите в самолете, ваши волосы растут в 2 раза быстрее.</value>
+  </data>
+  <data name="String477" xml:space="preserve">
+    <value>Перед тем, как начинать красить ногти, обработайте поверхность ногтя жидкостью для снятия лака либо вымойте ногти с мылом и хорошо просушите. На чистых, обезжиренных и сухих ногтях лак будет держаться долго, не облезая и не пузырясь.</value>
+  </data>
+  <data name="String478" xml:space="preserve">
+    <value>Замочите пластиковые доски в раковине в воде и отбеливателе по крайней мере на час. Для деревянных досок используйте лимонный сок и соль. Всего час – и доски будут как новенькие.</value>
+  </data>
+  <data name="String479" xml:space="preserve">
+    <value>Теплая вода с несколькими каплями жидкого мыла в работающем блендере – прекрасный очиститель для этого кухонного прибора. Не забудьте в конце промыть чистой водой.</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>Если у вас неожиданно заболел зуб – справимся с болью подручными средствами. Приложите ватку с небольшим количеством пищевой соли, и боль через небольшой промежуток времени отступит.</value>
+  </data>
+  <data name="String480" xml:space="preserve">
+    <value>Для того чтобы избавиться от запаха в банке, промойте её тёплой водой с добавлением одной чайной ложки горчицы.</value>
+  </data>
+  <data name="String481" xml:space="preserve">
+    <value>Каждый день не у всех есть возможность протирать пыль. Чтобы она поменьше оседала на предметах в доме, нужно смешать шампунь с водой и антистатиком в равных частях и этим раствором протирать поверхности. И тогда следующую пыль уже не придется убирать завтра, а через 2-3 дня.</value>
+  </data>
+  <data name="String482" xml:space="preserve">
+    <value>Взвесить допустимый вес белья для загрузки в барабан можно при помощи не весов, а обыкновенного стандартного 10-литрового ведра. Поместить туда вещи, не утрамбовывая их. В одно ведро примерно помещается 2,5 кг белья.</value>
+  </data>
+  <data name="String483" xml:space="preserve">
+    <value>Заскрипело колесо или дверь, а масло закончилось? Возьмите огурец, смажьте ось, и скрип прекратится.</value>
+  </data>
+  <data name="String484" xml:space="preserve">
+    <value>Невероятно, но в некоторых случаях исправить вмятины на корпусе машины поможет обыкновенный вантуз.</value>
+  </data>
+  <data name="String485" xml:space="preserve">
+    <value>Домашнюю птицу ощипывают сверху вниз, а лесную — снизу вверх.</value>
+  </data>
+  <data name="String486" xml:space="preserve">
+    <value>Молоко не прокиснет, если в него положить лист хрена.</value>
+  </data>
+  <data name="String487" xml:space="preserve">
+    <value>Чем крупнее нарезаны овощи, тем меньше питательных веществ они теряют при варке.</value>
+  </data>
+  <data name="String488" xml:space="preserve">
+    <value>Варёный картофель получится белоснежным, если добавить в воду немного лимонного сока.</value>
+  </data>
+  <data name="String489" xml:space="preserve">
+    <value>Для того чтобы уберечься от заноса авто – тормозите прерывисто путем энергичных и быстрых надавливаний на педаль тормоза.</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>Лимонад или другой газированный напиток не будет так сильно пениться, если предварительно всполоснуть стакан водой.</value>
+  </data>
+  <data name="String490" xml:space="preserve">
+    <value>Чтобы правильно пришить пуговицу, надо вставить между пуговицей и материалом спичку, а потом вынутъ её.</value>
+  </data>
+  <data name="String491" xml:space="preserve">
+    <value>Для измельчения варёного картофеля лучше использовать не мясорубку, а волосяное сито.</value>
+  </data>
+  <data name="String492" xml:space="preserve">
+    <value>Если плоские куски мяса свернуть трубочкой, они прожарятся равномернее.</value>
+  </data>
+  <data name="String493" xml:space="preserve">
+    <value>Если пролили на ковёр жидкость, посолите пятно. Вотрите соль руками и оставьте так на несколько часов (или дней, в зависимости от запущенности), затем пропылесосьте.</value>
+  </data>
+  <data name="String494" xml:space="preserve">
+    <value>Если в ресторане вы заказываете напиток, попросите безо льда или лёд отдельно. Вы получите существенно больше напитка (особенно это касается баров).</value>
+  </data>
+  <data name="String495" xml:space="preserve">
+    <value>Когда вы не можете открыть баночку, оберните резинку вокруг крышки. Это даст вам лучшее сцепление с поверхностью.</value>
+  </data>
+  <data name="String496" xml:space="preserve">
+    <value>Как компактно хранить туфли? Вам всего-то нужны 2 доски или даже готовый сайдинг нужной формы. Прибили к стенке и вот - поместится большое количество женских туфель на шпильках.</value>
+  </data>
+  <data name="String497" xml:space="preserve">
+    <value>Не стоит прятаться от грозы под большими деревьями. Они притягивают удары молний. Низинки, несмотря на воду, безопаснее, чем возвышенности.</value>
+  </data>
+  <data name="String498" xml:space="preserve">
+    <value>Сушеные овощи, упакованные в пергаментную бумагу, храните в сухом месте в фанерных или картонных коробках.</value>
+  </data>
+  <data name="String499" xml:space="preserve">
+    <value>Вариант "походного утюга"! Оберните сковороду фольгой и нагрейте, после чего разглаживайте ткань.</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>Если у вас проблемы с резкостью камеры вашего смартфона, попробуйте заклеить объектив прозрачным скотчем.</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>Жевательная резинка не способна так хорошо заглушить запах, как кофейное зерно.</value>
+  </data>
+  <data name="String500" xml:space="preserve">
+    <value>Секретный ящик.</value>
+  </data>
+  <data name="String501" xml:space="preserve">
+    <value>Чтобы с легкостью очистить любую продольную решетку, в том числе жалюзи, просто намотайте на нож для масла тряпку и смело водите между щелей, очищая их от пыли.</value>
+  </data>
+  <data name="String502" xml:space="preserve">
+    <value>В комнате, где преобладают красные тона, у человека (даже если у него завязаны глаза) увеличивается пульс; если преобладают желтые тона, пульс приходит в норму, а если зеленые – замедляется.</value>
+  </data>
+  <data name="String503" xml:space="preserve">
+    <value>Не забывайте вытирать пыль с подоконников и мыть их. Пыль, осевшая на них, летит по всему дому.</value>
+  </data>
+  <data name="String504" xml:space="preserve">
+    <value>Качественные листы оконного стекла прозрачны и бесцветны. На поверхности не должно быть никаких радужных и матовых пятен, несмываемых налетов и других следов.</value>
+  </data>
+  <data name="String505" xml:space="preserve">
+    <value>Чтобы быстро и легко очистить решетку гриля, разрежьте пополам луковицу и водите ею по решётке, держа щипцами. Лук не только очистит решетку, но и придаст ей аппетитный аромат.</value>
+  </data>
+  <data name="String506" xml:space="preserve">
+    <value>Если же Вы зимой провалились под лёд - немедленно по возвращении на сушу катайтесь в снегу до полного впитывания снегом набранной Вами воды, а уж потом - костёр и полная просушка.</value>
+  </data>
+  <data name="String507" xml:space="preserve">
+    <value>Принимая душ, бросьте под ноги пару грязных носков (есть ведь наверняка). И пока вы моетесь, потопчитесь на них. К концу мероприятия они будут такими же чистыми, как и вы.</value>
+  </data>
+  <data name="String508" xml:space="preserve">
+    <value>Чтобы избавиться от вредной привычки, заставьте себя каждый раз, когда срываетесь, записывать все, что делали за минуту до рецидива. Возможно, впредь вы не станете курить просто из-за нежелания писать.</value>
+  </data>
+  <data name="String509" xml:space="preserve">
+    <value>Хороший виски или коньяк в смеси с колой — перевод продукта. Бармен думает так же и, скорее всего, нальет самого дешевого.</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>Если при регистрации айфона указать, что живёшь в Израиле, App Store даже не будет пытаться предлагать платные приложения.</value>
+  </data>
+  <data name="String510" xml:space="preserve">
+    <value>Выставляя на торги (продавая через сайты и газеты) свою машину, квартиру - всегда запрашивайте цену на 10-15% превышающую максимум, который вы рассчитываете получить. Людям будет приятно поторговаться и выбить «скидку».</value>
+  </data>
+  <data name="String511" xml:space="preserve">
+    <value>Собираясь в отпуск, упакуйте чемодан за день-два заранее. Это не всё. Возьмите его и попробуйте пройтись с ним по родному кварталу прогулочным шагом. Если устанете - лучше перепаковать - ибо 100% устанете с ним и в поездке.</value>
+  </data>
+  <data name="String512" xml:space="preserve">
+    <value>Как не напиться вдрызг сразу: перед выпивкой, да и во время выпивок можно выпивать молоко! Очень помогает и на следующий день как огурчик! Во всяком случае мне помогает такой рецепт.</value>
+  </data>
+  <data name="String513" xml:space="preserve">
+    <value>Чтобы без проблем убрать мыльный налет с двери душа, обработайте её кулинарным спреем, подождите 5 минут и удалите его вместе с мылом.</value>
+  </data>
+  <data name="String514" xml:space="preserve">
+    <value>Ладонями по ушам. Достаточно сложный удар — сравнительно легко блокируется, но если попасть, секунд 15 человек вообще не будет понимать, что происходит и почему.</value>
+  </data>
+  <data name="String515" xml:space="preserve">
+    <value>Спустились к авто, чтобы забрать покупки, но забыли ключи дома? Позвоните на сотовый тому, кто остался дома, попросите поднести брелок сигналки к телефону и нажать "Open" на брелоке. Радиосигнал через сотовую связь разблокирует сигнализацию машины.</value>
+  </data>
+  <data name="String516" xml:space="preserve">
+    <value>Как играть в морской бой? Хитрость состоит в том, чтобы при заполнении своего поля кораблями не дорисовывать один однопалубный, а вписывать его в последний момент в необстрелянный квадратик, уже одержав победу.</value>
+  </data>
+  <data name="String517" xml:space="preserve">
+    <value>Удиви свою девушку.</value>
+  </data>
+  <data name="String518" xml:space="preserve">
+    <value>Протереть жалюзи можно легко и просто: засунув руку в носок и убрав им пыль.</value>
+  </data>
+  <data name="String519" xml:space="preserve">
+    <value>Вместо того чтобы вырезать кочерыжку ножом, ударьте по ней, чтобы вдавить внутрь. После этого вы сможете вынуть её без труда.</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>Если вам надоели комары в вашей комнате, включите свет в другой комнате, и они улетят туда. Простой, но проверенный лайфхак.</value>
+  </data>
+  <data name="String520" xml:space="preserve">
+    <value>Чтобы быстро собрать шерсть вашего четвероногого друга, просто протрите ковер или другую поверхность резиновым шпателем или приспособлением для мойки окон.</value>
+  </data>
+  <data name="String521" xml:space="preserve">
+    <value>Если вашего ребенка (или друга) стошнило на диван, сделайте пасту из воды и пищевой соды, затем нанесите на проблемное место и оставьте до высыхания. После высыхания просто пропылесосьте - не останется ни пятна, ни запаха.</value>
+  </data>
+  <data name="String522" xml:space="preserve">
+    <value>Перед включением режима сушки бросьте в машину сухое полотенце. Полотенце впитает всю лишнюю влагу, значительно ускоряя и улучшая эффект сушки.</value>
+  </data>
+  <data name="String523" xml:space="preserve">
+    <value>Дайте ребенку два мелка и чистый листок бумаги. Ребенок заснет быстрее.</value>
+  </data>
+  <data name="String524" xml:space="preserve">
+    <value>Если ваш кот любит лежать на клавиатуре или сидеть перед монитором, поставьте рядом с компьютером коробку. Коробки манят котов как магниты.</value>
+  </data>
+  <data name="String525" xml:space="preserve">
+    <value>Ну... Зато тепло :)</value>
+  </data>
+  <data name="String526" xml:space="preserve">
+    <value>Устали от того, что кабели постоянно расходятся?</value>
+  </data>
+  <data name="String527" xml:space="preserve">
+    <value>Наполните пластиковую бутылку водой на четверть и положите в холодильник до полного замерзания. Затем если вам нужна будет холодная вода, просто долейте в неё воды.</value>
+  </data>
+  <data name="String528" xml:space="preserve">
+    <value>Маленькие серьги-гвоздики будет проще найти, если хранить их попарно, втыкая в пенопласт.</value>
+  </data>
+  <data name="String529" xml:space="preserve">
+    <value>Из засохших остатков сыра получится отличный соус для макарон. Нарежьте кусочки сухого сыра, растворите в молоке на огне - и готово.</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>Фольга — это тонкий металл, который чуть складывается, когда вы его режете, тем самым ножницы не тупятся, а точатся.</value>
+  </data>
+  <data name="String530" xml:space="preserve">
+    <value>Замороженную рыбу из холодильника всегда оттаивайте в молоке. Тогда она становится как только что пойманная.</value>
+  </data>
+  <data name="String531" xml:space="preserve">
+    <value>Губка может защитить ваши ноги от болезненного нажатия на педали.</value>
+  </data>
+  <data name="String532" xml:space="preserve">
+    <value>Вот так можно поджарить хлеб по-походному в домашних условиях и практически автоматически.</value>
+  </data>
+  <data name="String533" xml:space="preserve">
+    <value>Оригинальный способ освободить место на рабочем столе от всякой канцелярской мелочи. Всего-то и надо — стаканы, хомуты, верёвки и крепление.</value>
+  </data>
+  <data name="String534" xml:space="preserve">
+    <value>У вас есть кактусы, и вы не знаете, как удивить гостей?</value>
+  </data>
+  <data name="String535" xml:space="preserve">
+    <value>Отличный способ освободить руки…</value>
+  </data>
+  <data name="String536" xml:space="preserve">
+    <value>Стройка — дело тяжёлое, и хорошо бы всё было под рукой. Вот пример, как можно освободить рот от грязных и острых гвоздей.</value>
+  </data>
+  <data name="String537" xml:space="preserve">
+    <value>Cовершенно нетрадиционное, но весьма жизненное использование пластиковой бутылки как защитной маски.</value>
+  </data>
+  <data name="String538" xml:space="preserve">
+    <value>Если при звонке на чей-либо мобильный вы сразу слышите фразу про недоступность абонента, значит, его аппарат отключён. Если фразу произносят спустя 10-15 секунд, значит человек не может быть найден базовой станцией (едет в метро, тоннеле…).</value>
+  </data>
+  <data name="String539" xml:space="preserve">
+    <value>Не хотите оглохнуть к старости? Не слушайте музыку в обычных наушниках-каплях в метро.</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>Покрасьте ключи разными лаками для ногтей, чтобы было легче найти нужный ключ.</value>
+  </data>
+  <data name="String540" xml:space="preserve">
+    <value>Экономите электричество? Заряжайте мобильник и прочие девайсы на работе.</value>
+  </data>
+  <data name="String541" xml:space="preserve">
+    <value>Если вдруг тошнит, нужно смотреть на как можно более отдалённые объекты и делать медленные глубокие вдохи. Помогает.</value>
+  </data>
+  <data name="String542" xml:space="preserve">
+    <value>Умных болтунов не бывает. Соответственно, чем меньше вы говорите, тем умнее выглядите в глазах окружающих.</value>
+  </data>
+  <data name="String543" xml:space="preserve">
+    <value>Подгузники гарантируют сохранность и безопасную доставку хрупких предметов в посылках.</value>
+  </data>
+  <data name="String544" xml:space="preserve">
+    <value>В холодильнике я обклеил стеклянные полки пищевой пленкой. Теперь когда полочки загрязняются, я просто снимаю пленку и наклеиваю новую.</value>
+  </data>
+  <data name="String545" xml:space="preserve">
+    <value>Во время дождя носите в сумке обычный полиэтиленовый пакет. В транспорте туда можно положить мокрый зонт и сложить его в сумку, чтобы не мешал.</value>
+  </data>
+  <data name="String546" xml:space="preserve">
+    <value>Фотографии в баночках. Оригинально.</value>
+  </data>
+  <data name="String547" xml:space="preserve">
+    <value>Держатель для кухонной занавески.</value>
+  </data>
+  <data name="String548" xml:space="preserve">
+    <value>Девушка за рулем? Жмет грудь ремень безопасности? Подложите под него маленькую мягкую игрушку – безопасность не пострадает.</value>
+  </data>
+  <data name="String549" xml:space="preserve">
+    <value>Вот сколько нужно варить яйца.</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>Катышки со свитера можно убрать с помощью пемзы.</value>
+  </data>
+  <data name="String550" xml:space="preserve">
+    <value>Магнитный брусок можно приспособить под держатель для ножей.</value>
+  </data>
+  <data name="String551" xml:space="preserve">
+    <value>Перед сдачей багaжа сфoтoграфируйтe егo! Если потеряется, нaйдут быстрее по фотографии, чем пo вашим опиcaниям.</value>
+  </data>
+  <data name="String552" xml:space="preserve">
+    <value>Заправляться на трассе лучше на тех заправках, где стоят много фур. Дальнобойщики знают, где не обманывают, и топливо нормальное. То же самое относится и к придорожным кафешкам.</value>
+  </data>
+  <data name="String553" xml:space="preserve">
+    <value>Если в общественном транспорте в жару не прислоняться спиной к сиденью, то будет не так жарко.</value>
+  </data>
+  <data name="String554" xml:space="preserve">
+    <value>Тяжело таскаться с какими-то вещами по городу? Положите их в камеру хранения в любом супермаркете.</value>
+  </data>
+  <data name="String555" xml:space="preserve">
+    <value>Некоторые аппараты в Европе принимают двухрублевую монету за 1 евро.</value>
+  </data>
+  <data name="String556" xml:space="preserve">
+    <value>Нужна мелочь? Кормим кофейный автомат купюрами, нажимаем «Отмена» и слышим звон монет.</value>
+  </data>
+  <data name="String557" xml:space="preserve">
+    <value>Сушить джинсы нужно либо в горизонтальном положении, либо подвесив за штанины.</value>
+  </data>
+  <data name="String558" xml:space="preserve">
+    <value>Иногда можно попасть в такую ситуацию, когда вам нужно надеть туфли, а крема для обуви у вас нет. Посмотрите, не завалялся ли у вас банан? После съедения плода не торопитесь выкидывать кожуру, именно она поможет почистить обувь, а также защитит её от влаги.</value>
+  </data>
+  <data name="String559" xml:space="preserve">
+    <value>Чтобы не стоять в очереди.</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>Необтягивающие джинсы можно легко заправить в сапоги. Вот так.</value>
+  </data>
+  <data name="String560" xml:space="preserve">
+    <value>Собираясь на пляж, просто положите свой смартфон в полиэтиленовый пакет, и он будет защищен от песка и воды.</value>
+  </data>
+  <data name="String561" xml:space="preserve">
+    <value>Для удобной переписки на ваших смартфонах и планшетах разработчики придумали полезную вещь. Нажмите два раза на пробел и программа поставит точку и пробел после неё.</value>
+  </data>
+  <data name="String562" xml:space="preserve">
+    <value>Отправляясь в отпуск, спрячьте деньги в использованную тубу из-под губной помады.</value>
+  </data>
+  <data name="String563" xml:space="preserve">
+    <value>Половину раскрытой фисташки можно использовать, чтобы раскрыть другие.</value>
+  </data>
+  <data name="String564" xml:space="preserve">
+    <value>Старый подкассетник можно использовать в качестве подставки для вашего смартфона.</value>
+  </data>
+  <data name="String565" xml:space="preserve">
+    <value>Если вы с утра долго собираетесь и постоянно опаздываете, запишите несколько любимых треков и включайте их по утрам. Вы должны быть полностью собраны к тому моменту, когда доиграет последний трек. Таким образом, вы не только прокачаете свою дисциплину, но и будете с самого утра в хорошем настроении.</value>
+  </data>
+  <data name="String566" xml:space="preserve">
+    <value>Когда вещи слишком долго хранятся в шкафу, они пропитываются неприятным запахом пыли и ветхости. Для устранения запаха воспользуйтесь смесью воды и водки (2:1), просто обрызгав их этим раствором.</value>
+  </data>
+  <data name="String567" xml:space="preserve">
+    <value>Идея к Хэллоуину.</value>
+  </data>
+  <data name="String568" xml:space="preserve">
+    <value>Идея для хранения в гараже инструментов и всякой всячины.</value>
+  </data>
+  <data name="String569" xml:space="preserve">
+    <value>Как очистить стиральную машинку от накипи? Насыпьте три пакета лимонной кислоты (всего 15 г) в отделение для порошка и включите режим кипячения или стирки при 90 градусах. И накипи как не было.</value>
+  </data>
+  <data name="String57" xml:space="preserve">
+    <value>Упаковывая чемодан, заверните обувь в шапочку для душа, тогда подошва не будет касаться чистой одежды.</value>
+  </data>
+  <data name="String570" xml:space="preserve">
+    <value>Подаем селедку красиво. Идея!</value>
+  </data>
+  <data name="String571" xml:space="preserve">
+    <value>Правильно складываем пальто.</value>
+  </data>
+  <data name="String572" xml:space="preserve">
+    <value>Для любителей выглядеть не только ярко, но и грамотно: цветовые комбинации рубашки и галстука.</value>
+  </data>
+  <data name="String573" xml:space="preserve">
+    <value>Чтобы тесто легко сворачивалось, его надо сбрызнуть водой.</value>
+  </data>
+  <data name="String574" xml:space="preserve">
+    <value>Удобно хранить нитки.</value>
+  </data>
+  <data name="String575" xml:space="preserve">
+    <value>Вот так готовит завтрак сильный и независимый мужчина:)</value>
+  </data>
+  <data name="String576" xml:space="preserve">
+    <value>Изящнейший, совершенно дамский держатель для клубка ниток.</value>
+  </data>
+  <data name="String577" xml:space="preserve">
+    <value>Обдайте кипятком щетку для туши.</value>
+  </data>
+  <data name="String578" xml:space="preserve">
+    <value>Чтобы наушники и разные другие проводки не спутывались в сумке, нужно намотать их на расческу.</value>
+  </data>
+  <data name="String579" xml:space="preserve">
+    <value>Секрет лайфхакинга из серии «big city life»: чтобы безошибочно определить сторону света в незнакомом городе, посмотрите на спутниковые антенны - они всегда «растут» на южной стороне.</value>
+  </data>
+  <data name="String58" xml:space="preserve">
+    <value>Вешайте одежду, которую вы носите, в одном направлении в гардеробе. Так по истечении определённого времени вы поймёте, что вы не носите вообще. А если не носите, значит, это вам не нужно.</value>
+  </data>
+  <data name="String580" xml:space="preserve">
+    <value>Определять погоду можно по чашке утреннего свежезаваренного кофе: если пузырьки в центре, значит, дождя не будет, так как атмосферное давление высокое, а если расположены по краям – дождь обеспечен.</value>
+  </data>
+  <data name="String581" xml:space="preserve">
+    <value>Чтобы безопасно выкрутить перегоревшую и разбившуюся лампочку из патрона, нужно разрезать сырую картофелину пополам, насадить половинку на цоколь лампочки и выкрутить его.</value>
+  </data>
+  <data name="String582" xml:space="preserve">
+    <value>Главное - выбрать подходящую книгу.</value>
+  </data>
+  <data name="String583" xml:space="preserve">
+    <value>Не мастер-класс, конечно, но всё же.</value>
+  </data>
+  <data name="String584" xml:space="preserve">
+    <value>Не выбрасывайте старые свитера, из них может получиться отличный плед.</value>
+  </data>
+  <data name="String585" xml:space="preserve">
+    <value>Девушки, которым хоть раз доводилось ходить в туфлях на шпильке по траве, поймут, зачем это.</value>
+  </data>
+  <data name="String586" xml:space="preserve">
+    <value>Как аккуратно сложить рубашку с помощью журнала?</value>
+  </data>
+  <data name="String587" xml:space="preserve">
+    <value>Вот такой вот «лайфхак» :).</value>
+  </data>
+  <data name="String588" xml:space="preserve">
+    <value>Увлажнитель воздуха своими руками.</value>
+  </data>
+  <data name="String589" xml:space="preserve">
+    <value>Особенно грязные и жирные кастрюли и сковороды лучше сначала залить на некоторое время водой.</value>
+  </data>
+  <data name="String59" xml:space="preserve">
+    <value>Шарфы и чулки можно хранить завязанными на вешалках.</value>
+  </data>
+  <data name="String590" xml:space="preserve">
+    <value>Если налить банку колы в унитаз перед тем, как почистить его — это существенно упростит весь процесс чистки.</value>
+  </data>
+  <data name="String591" xml:space="preserve">
+    <value>Течет смеситель? Немного фантазии и пластиковая бутылка временно решат проблему.</value>
+  </data>
+  <data name="String592" xml:space="preserve">
+    <value>Приобретите нейлоновую нить с серебряным покрытием (серебро проводит электричество). Вышивайте крест или звезду на каждом пальце, который должен управлять смартфоном. Обычно это указательный. Убедитесь в том, что когда перчатки надеты, нить касается пальца.</value>
+  </data>
+  <data name="String593" xml:space="preserve">
+    <value>Храните молоко в основной части холодильника, а не в дверце, где температура ниже.</value>
+  </data>
+  <data name="String594" xml:space="preserve">
+    <value>Если какой-то продукт покрылся плесенью, и пришлось его выбросить, не поленитесь вымыть и продезинфицировать холодильник. Если этого не сделать, плесень может перебраться и на другие продукты.</value>
+  </data>
+  <data name="String595" xml:space="preserve">
+    <value>Держите наименее свежие продукты ближе к дверце, чтобы вы могли видеть, что следует съесть в первую очередь.</value>
+  </data>
+  <data name="String596" xml:space="preserve">
+    <value>Если нужно высушить стельки в офисе на батарее — спрячьте их в "конверт" из листов A4, скрепленных по периметру степлером.</value>
+  </data>
+  <data name="String597" xml:space="preserve">
+    <value>Держите дома надувной спальный матрас! Будет куда уложить внезапно свалившихся друзей/родственников.</value>
+  </data>
+  <data name="String598" xml:space="preserve">
+    <value>Не кладите тлеющий уголь для кальяна в стеклянную пепельницу. Пепельница может лопнуть, даже если стекло толстое.</value>
+  </data>
+  <data name="String599" xml:space="preserve">
+    <value>Склеивать различные мелкие детали из стекла, оргстекла и пластика в домашних условиях удобно с помощью чесночного сока.</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>Чтобы придать пицце свежеcть, разогрейте её в микроволновке со стаканом воды.</value>
+  </data>
+  <data name="String60" xml:space="preserve">
+    <value>Жвачку из волос можно достать с помощью кубиков льда. Из-за этого жвачка твердеет, и её легче достать. Этим же способом можно снять жвачку с подошвы.</value>
+  </data>
+  <data name="String600" xml:space="preserve">
+    <value>Чтобы кошка не ходила по обеденному столу, пока вас нет дома, приклейте по краям стола широкий скотч клейкой стороной вверх.</value>
+  </data>
+  <data name="String601" xml:space="preserve">
+    <value>Чтобы увеличить зазор между столом и работающим на нем ноутбуком, подложите под него ластики.</value>
+  </data>
+  <data name="String602" xml:space="preserve">
+    <value>Когда выбрасываете пакет из-под сока или молока, отклейте уголки снизу и сверху, сплющите коробку и сложите в несколько раз. Так удобнее, и места в мусорке меньше занимает.</value>
+  </data>
+  <data name="String603" xml:space="preserve">
+    <value>Железная банка кофе "Нескафе классик" имеет пластиковую крышку, которую не стоит выбрасывать! Крышка идеально подходит для закупоривания вскрытых банок со сгущенкой, овощных и рыбных консервов.</value>
+  </data>
+  <data name="String604" xml:space="preserve">
+    <value>Если в ванной поначалу холодно, облейте всю шторку горячей водой изнутри. Получится тепловой экран и горячий пар.</value>
+  </data>
+  <data name="String605" xml:space="preserve">
+    <value>Прогнать осу из помещения поможет пульверизатор с водой.</value>
+  </data>
+  <data name="String606" xml:space="preserve">
+    <value>Если монтажная пена попала на одежду или ковер, не трогайте ее в течение суток. Она затвердеет и её можно будет легко удалить путём отрывания.</value>
+  </data>
+  <data name="String607" xml:space="preserve">
+    <value>Отключили горячую воду? Зато есть стиральная машина! Опускаете слив в ванну, затыкаете дырку в ванне и включаете пустую машину без порошка на максимальную температуру.</value>
+  </data>
+  <data name="String608" xml:space="preserve">
+    <value>Чтобы в дом не попадал дым с улицы, намочите шторы.</value>
+  </data>
+  <data name="String609" xml:space="preserve">
+    <value>Не храните хлеб в полиэтиленовом пакете. Он так быстрее плесневеет.</value>
+  </data>
+  <data name="String61" xml:space="preserve">
+    <value>Когда завиваете волосы плойкой или стайлером, начинайте с середины локона, а не с конца. Укладка продержится дольше.</value>
+  </data>
+  <data name="String610" xml:space="preserve">
+    <value>Нет чехла для шампуров — купите тубус.</value>
+  </data>
+  <data name="String611" xml:space="preserve">
+    <value>Если вы часто бываете с маленьким ребенком в общественном транспорте — купите ему несколько пар бахил. Не надо пачкать невинных пассажиров и нарываться на скандал.</value>
+  </data>
+  <data name="String612" xml:space="preserve">
+    <value>Хотите продать квартиру — готовьте еду перед приходом потенциальных покупателей. Запах вкусной еды создает ощущение домашнего уюта.</value>
+  </data>
+  <data name="String613" xml:space="preserve">
+    <value>Зайди в "Настройки" и нажми "ПОЖЕРТВОВАТЬ 44 р.". Уже нажимал? Ничего страшного, нажми "ПОЖЕРТВОВАТЬ 99 р."  :)</value>
+  </data>
+  <data name="String614" xml:space="preserve">
+    <value>Чтобы смягчить жёсткое мясо, следует натереть его сухой горчицей и несколько часов подержать в холодильнике (не в морозилке!). Перед готовкой избыток горчицы смыть проточной водой.</value>
+  </data>
+  <data name="String615" xml:space="preserve">
+    <value>Немного соды, смешанной с аспирином в пропорции 1:1, прекрасно заменит дрожжи. Причём тесто поднимется непосредственно в духовке.</value>
+  </data>
+  <data name="String616" xml:space="preserve">
+    <value>Если сушёные грибы замочить в чуть подсоленном молоке, через два-три часа из них можно готовить блюдо как из свежих.</value>
+  </data>
+  <data name="String617" xml:space="preserve">
+    <value>Чтобы нанести на стену метку под отверстие для шурупа, используйте клеящуюся бумагу для заметок. Метка на ней видна хорошо, а клей не оставляет следов на обоях.</value>
+  </data>
+  <data name="String618" xml:space="preserve">
+    <value>Когда приходится закручивать миниатюрную гайку в труднодоступном месте, поможет капельный кусочек пластилина (оконной замазки и даже жвачки), прилеплённый к кончику указательного пальца. Прилепите к нему гайку и останется только совместить отверстие в детали с отверстием в гайке. Для этого можно использовать тонкое шило или булавку.</value>
+  </data>
+  <data name="String619" xml:space="preserve">
+    <value>Зимой автомобилистам полезно держать в машине мешочек с обычной печной золой. Подсыпанная под буксующее на льду колесо, она поможет выбраться из любой «засады». По опыту зола работает значительно лучше песка.</value>
+  </data>
+  <data name="String62" xml:space="preserve">
+    <value>Удобный способ надежно и аккуратно закрыть от насекомых и кошки пакетик с чипсами без подручных средств.</value>
+  </data>
+  <data name="String620" xml:space="preserve">
+    <value>Если у вас сорвало кран и хлещет вода, не пытайтесь его заткнуть. Скорее хватайте пылесосный шланг и надевайте его на место аварии, другой конец перенаправляйте в ванну, унитаз или раковину.</value>
+  </data>
+  <data name="String621" xml:space="preserve">
+    <value>Перед запуском стиральной машины дважды проверьте, нет ли там кота.</value>
+  </data>
+  <data name="String622" xml:space="preserve">
+    <value>Пользуйтесь скайпом и IP телефонией - сэкономите на межгороде.</value>
+  </data>
+  <data name="String623" xml:space="preserve">
+    <value>Чтобы выгнать муху или бабочку из комнаты, откройте дверь и выключите свет. Большинство насекомых летят на свет.</value>
+  </data>
+  <data name="String624" xml:space="preserve">
+    <value>Цианакриловый суперклей боится подсолнечного масла.</value>
+  </data>
+  <data name="String625" xml:space="preserve">
+    <value>Запах кота с любых поверхностей легко устраняется перекисью водорода.</value>
+  </data>
+  <data name="String626" xml:space="preserve">
+    <value>Мгновенно уменьшить красноту на месте вскочившего прыщика можно, обработав его спреем для носа. Спрей против насморка оказывает противовоспалительное действие.</value>
+  </data>
+  <data name="String627" xml:space="preserve">
+    <value>Если используете будильник на мобильном телефоне, а встаете утром с трудом — кладите телефон подальше от кровати.</value>
+  </data>
+  <data name="String628" xml:space="preserve">
+    <value>Если вас ужалила оса, приложите к месту укуса кусочек лука и наслаждайтесь победой интеллекта над животной агрессией.</value>
+  </data>
+  <data name="String629" xml:space="preserve">
+    <value>Не стоит покупать товар, который рекламируют по телевизору. В его цену заложены затраты на рекламу, а телевизионная реклама очень дорога.</value>
+  </data>
+  <data name="String63" xml:space="preserve">
+    <value>Лимонный сок – прекрасная замена отбеливателю. Добавьте при стирке от 1/4 до 1/2 чашки лимонного сока в воду и вернёте потускневшему белью яркий свежий вид.</value>
+  </data>
+  <data name="String630" xml:space="preserve">
+    <value>На самой низкой мощности в микроволновке отлично расходится желатин и готовится горячий шоколад.</value>
+  </data>
+  <data name="String631" xml:space="preserve">
+    <value>На горячем песке ноги высыхают быстрее.</value>
+  </data>
+  <data name="String632" xml:space="preserve">
+    <value>Купи вторую зарядку для мобильника и отнеси её на работу.</value>
+  </data>
+  <data name="String633" xml:space="preserve">
+    <value>Если заканчивается блеск для губ, плотно закройте крышку и опустите его на пять минут в горячую воду. На стенках остается иногда довольно много блеска, собрать который оттуда сложно, а при попадании в горячую воду он стекает вниз.</value>
+  </data>
+  <data name="String634" xml:space="preserve">
+    <value>Используйте при регистрации имя пользователя qwerty, пароль qwerty. Если вас не волнует рейтинг, приватность и т.п. вашей учетной записи, используйте эти данные.</value>
+  </data>
+  <data name="String635" xml:space="preserve">
+    <value>Яйца с надтреснутой скорлупой не вытекут, если варить их в соленой воде.</value>
+  </data>
+  <data name="String636" xml:space="preserve">
+    <value>Можно класть деньги на автобус перед выходом в перчатку или варежку. Тогда не придется в час пик в заполненном автобусе рыться в кошельке и искать их.</value>
+  </data>
+  <data name="String637" xml:space="preserve">
+    <value>Одноразовые бритвы — не одноразовые!</value>
+  </data>
+  <data name="String638" xml:space="preserve">
+    <value>За неимением готовых дюбелей можно отлично изготовить их из «лапши». Отрезается кусок вдвое длиннее глубины отверстия, складывается пополам, вставляется в отверстие и вуаля – можно вкручивать шуруп.</value>
+  </data>
+  <data name="String639" xml:space="preserve">
+    <value>Если постоянно опаздываете, переведите стрелки часов на несколько минут вперед. Самообман, но все равно помогает.</value>
+  </data>
+  <data name="String64" xml:space="preserve">
+    <value>Очистить труднодоступные места вазы и бутылки можно и при помощи риса: насыпьте внутрь столовую ложку крупы, добавьте тёплой мыльной воды и потрясите.</value>
+  </data>
+  <data name="String640" xml:space="preserve">
+    <value>Застегнуть "молнию" на спине поможет верёвочка! Продеваем её в дырочку бегунка и тянем вверх.</value>
+  </data>
+  <data name="String641" xml:space="preserve">
+    <value>Сделайте себе памятку с телефонами электриков, сантехников и газовиков Вашего района! Вещь очень нужная, как оказалось:)</value>
+  </data>
+  <data name="String642" xml:space="preserve">
+    <value>Помидоры лучше резать рифленым (хлебным) ножом, если нет идеально заточенного обычного.</value>
+  </data>
+  <data name="String643" xml:space="preserve">
+    <value>Пока жарко постирайте свои зимние куртки, подушки и прочее долгосохнущее.</value>
+  </data>
+  <data name="String644" xml:space="preserve">
+    <value>В пробке быстрее движется тот ряд, где меньше думающих о том, какой ряд движется быстрее. Расслабьтесь и получайте удовольствие.</value>
+  </data>
+  <data name="String645" xml:space="preserve">
+    <value>Газета — это незаменимая вещь на стадионе. Её можно подстелить на грязное пластиковое сиденье, из неё можно сделать кулёк для семечек.</value>
+  </data>
+  <data name="String646" xml:space="preserve">
+    <value>Если вы покупаете пачку дорогих сигарет, желательно купить еще и пачку дешевых. Так вы не будете жалеть о "расстрелянных" дорогих сигаретах.</value>
+  </data>
+  <data name="String647" xml:space="preserve">
+    <value>Уезжая из дома на несколько дней, наносите на ванну чистящее средство (типа Доместос). Приезжаете, просто СМЫВАЕТЕ душем. Всё блестит и не надо тереть.</value>
+  </data>
+  <data name="String648" xml:space="preserve">
+    <value>Батон не свеж? Батон не мягок? Закиньте его в микроволновку не более чем на 15 секунд и ощутите разницу :).</value>
+  </data>
+  <data name="String649" xml:space="preserve">
+    <value>Острые блюда азиатской кухни заедайте рисом. Бесполезно гасить огонь во рту напитками.</value>
+  </data>
+  <data name="String65" xml:space="preserve">
+    <value>Можно не бояться, что хрупкие бокалы разобьются в посудомоечной машине, если закрепить их на решётке при помощи резиновых колец.</value>
+  </data>
+  <data name="String650" xml:space="preserve">
+    <value>Если носки или гольфы при каждой носке менять с правого на левый, то дырки в районе пальцев образуются не так быстро, как обычно.</value>
+  </data>
+  <data name="String651" xml:space="preserve">
+    <value>Пока нет отопления грейте ноги о блок питания ноутбука. Глупо, но приятно=)</value>
+  </data>
+  <data name="String652" xml:space="preserve">
+    <value>Держите на работе запасной зонт или полиэтиленовый плащ.</value>
+  </data>
+  <data name="String653" xml:space="preserve">
+    <value>Не тушите горящее масло водой.</value>
+  </data>
+  <data name="String654" xml:space="preserve">
+    <value>Насыпайте сахар в сахарницу над раковиной -  просыплете все равно. Проще смыть водой, чем тряпкой вытирать.</value>
+  </data>
+  <data name="String655" xml:space="preserve">
+    <value>Смотри на привычные вещи иначе.</value>
+  </data>
+  <data name="String656" xml:space="preserve">
+    <value>Чтобы выправить вмятины на небольшой металлической ёмкости (например, фляжке) — залейте водой и положите в морозилку.</value>
+  </data>
+  <data name="String657" xml:space="preserve">
+    <value>Не покупайте электронику перед Новым годом. Покупайте пораньше. Перед праздниками "на прилавок" выкидывается весь накопившийся за год брак.</value>
+  </data>
+  <data name="String658" xml:space="preserve">
+    <value>Чтобы изолента хорошо держалась нужно наматывать её с увеличивающимся растягивающим усилием, последним витком разрывая. Если просто обрезать, то долго она не продержится.</value>
+  </data>
+  <data name="String659" xml:space="preserve">
+    <value>Не можете найти какой-либо документ? Посмотрите в сканере/копире/МФУ. Проблема довольно распространенная, сам раньше сталкивался :).</value>
+  </data>
+  <data name="String66" xml:space="preserve">
+    <value>Удалить шерсть вашего животного с мягкой мебели помогут резиновые перчатки – просто проведите влажной перчаткой по поверхности, и вся шерсть окажется на ней.</value>
+  </data>
+  <data name="String660" xml:space="preserve">
+    <value>Чтобы мыльные пузыри были прочнее, в мыльный раствор можно добавить немного глицерина.</value>
+  </data>
+  <data name="String661" xml:space="preserve">
+    <value>Не гладьте постельное бельё. Смысла нет. Через секунду после того, как вы на него ляжете, оно будет опять мятым.</value>
+  </data>
+  <data name="String662" xml:space="preserve">
+    <value>Чтобы не ждать пока остынет кофе, можно заморозить сливки:)</value>
+  </data>
+  <data name="String663" xml:space="preserve">
+    <value>Поставьте в ванной маленькое мусорное ведёрко с крышкой. В него очень удобно кидать всякий небольшой мусор.</value>
+  </data>
+  <data name="String664" xml:space="preserve">
+    <value>Креативное применение старых карандашиков и клавиатуры.</value>
+  </data>
+  <data name="String665" xml:space="preserve">
+    <value>Если под рукой нет жидкости для снятия лака, нанесите на ноготь ещё один слой лака и, не дожидаясь высыхания, сотрите салфеткой.</value>
+  </data>
+  <data name="String666" xml:space="preserve">
+    <value>Грязь на белых резиновых носках кед лучше всего оттирать бытовым керосином. Не обязательно кеды стирать целиком, просто смочите вату парой капель керосина.</value>
+  </data>
+  <data name="String667" xml:space="preserve">
+    <value>Свело мышцу судорогой — крепко сожмите её рукой до боли. Также помогает укол иглой в сведённую мышцу, профессиональные пловцы на большие расстояния в открытой воде специально для таких случаев прикалывают английскую булавку на плавки.</value>
+  </data>
+  <data name="String668" xml:space="preserve">
+    <value>Чтобы вам вернули ваш потерянный фотоаппарат, сделайте несколько фотографий со своей контактной информацией и оставьте их на карте памяти. Люди разные бывают. Возможно, вернут.</value>
+  </data>
+  <data name="String669" xml:space="preserve">
+    <value>Яйца вкрутую можно организовать и в духовке.</value>
+  </data>
+  <data name="String67" xml:space="preserve">
+    <value>Сахар, разведённый небольшим количеством воды – прекрасное средство обезжирить руки.</value>
+  </data>
+  <data name="String670" xml:space="preserve">
+    <value>Растянулась хлопковая футболка? Есть шанс всё исправить. Делаем так: растянутую часть пару минут смачиваем в горячей воде, а после вешаем сушиться, не отжимая.</value>
+  </data>
+  <data name="String671" xml:space="preserve">
+    <value>Закрывая дверь в квартиру, говорите себе "Я закрыл дверь". Точно вспомните.</value>
+  </data>
+  <data name="String672" xml:space="preserve">
+    <value>Всегда держите в машине одеяло, фонарь и комплект запасных батареек.</value>
+  </data>
+  <data name="String673" xml:space="preserve">
+    <value>Выворачивайте вещи наизнанку перед стиркой. Вещь прослужит дольше.</value>
+  </data>
+  <data name="String674" xml:space="preserve">
+    <value>Мягкую мебель можно вычистить с помощью выбивалки для ковров, не поднимая при этом пыли. Достаточно накрыть обивку мокрой простыней.</value>
+  </data>
+  <data name="String675" xml:space="preserve">
+    <value>Пересоленный суп или соус можно спасти, положив в них на 10 минут три столовые ложки риса, завернутые в марлю. Рис идеально поглощает соль.</value>
+  </data>
+  <data name="String676" xml:space="preserve">
+    <value>Холодно? Хотите сесть в трамвае поближе к батарее? Ищите прозрачные окна.</value>
+  </data>
+  <data name="String677" xml:space="preserve">
+    <value>Заменяете лампочку? При включении не смотрите на неё. Лучше даже голову вниз опустить. Иногда при первом включении лампочка взрывается.</value>
+  </data>
+  <data name="String678" xml:space="preserve">
+    <value>Для того чтобы как-то защитить свой багаж от небрежного отношения, наклейте на него этикетку «Fragile», которую можно попросить на стойке регистрации. Конечно, гарантий вам никто не даст, но есть шанс, что чемодан не будет «летать» по всему грузовому отсеку во время погрузки.</value>
+  </data>
+  <data name="String679" xml:space="preserve">
+    <value>Очень часто за границей в мелких ресторанах, да и в крупных тоже, иностранцев обсчитывают. Для того, чтобы не попасть на лишние деньги — оставляйте меню до момента расплаты с официантом. Тогда у обслуживающего персонала не будет шансов увеличить стоимость вашего супа или десерта.</value>
+  </data>
+  <data name="String68" xml:space="preserve">
+    <value>Вернуть линолеуму былой лоск можно, отполировав его зубной пастой.</value>
+  </data>
+  <data name="String680" xml:space="preserve">
+    <value>Чтобы трещина не "ползла" дальше, просверлите отверстие на её конце.</value>
+  </data>
+  <data name="String681" xml:space="preserve">
+    <value>Не отворачивается шуруп — стукните по нему молотком.</value>
+  </data>
+  <data name="String682" xml:space="preserve">
+    <value>Украшения всегда теряются в чемодане, и поэтому, если дома вы оставить их упорно не желаете, серьги прикрепляйте к большим пуговицам, а тонкие цепочки, чтобы они не запутались, храните, поместив наполовину в трубочку для сока.</value>
+  </data>
+  <data name="String683" xml:space="preserve">
+    <value>Путешествуя со "спортивной" сумкой, обязательно клади вещи в пакеты. Подобные сумки могут промокнуть насквозь.</value>
+  </data>
+  <data name="String684" xml:space="preserve">
+    <value>После приезда на подземную парковку супермаркета сфотографируйте ближайший столбик с номером.</value>
+  </data>
+  <data name="String685" xml:space="preserve">
+    <value>Бойтесь емкостей в путешествиях! Прежде чем положить шампунь в сумку, заверните его в пленку.</value>
+  </data>
+  <data name="String686" xml:space="preserve">
+    <value>Поставьте перед вентилятором несколько пластиковых бутылок с заранее замороженной водой. Быстро охладится воздух в помещении 10-12 кв.м.</value>
+  </data>
+  <data name="String687" xml:space="preserve">
+    <value>Кредитную карту, которую вы берете с собой, откройте для использования за границей (некоторые типы карт, например, Platinum), нужно открывать. Кроме того, узнайте в банке, обслуживается ли ваша карта в той стране, куда вы направляетесь.</value>
+  </data>
+  <data name="String688" xml:space="preserve">
+    <value>Если Вы планируете арендовать автомобиль за рубежом, убедитесь, что Ваше водительское удостоверение признается и будет действительным в стране, в которую Вы направляетесь (внимание: часто при аренде автомобиля существуют возрастные ограничения);</value>
+  </data>
+  <data name="String689" xml:space="preserve">
+    <value>Можно легко менять масштаб документов, а также HTML-страниц при помощи Ctrl колесика мыши. Искать кнопочку с масштабом иногда приходится долго, а так всё очень легко и просто.</value>
+  </data>
+  <data name="String69" xml:space="preserve">
+    <value>Чтобы почистить кофемолку, достаточно смолоть в ней горстку риса, удалить получившуюся муку и протереть сухим полотенцем.</value>
+  </data>
+  <data name="String690" xml:space="preserve">
+    <value>Если забивать гвоздь не прямо, а под углом к направлению древесных волокон, он будет держаться гораздо крепче.</value>
+  </data>
+  <data name="String691" xml:space="preserve">
+    <value>Способы зашнуровать кроссовки.</value>
+  </data>
+  <data name="String692" xml:space="preserve">
+    <value>Почаще протирайте телефонную трубку спиртом. Особенно это касается стационарных телефонов. Больное горло, прыщи и вирусы не порадуют никого.</value>
+  </data>
+  <data name="String693" xml:space="preserve">
+    <value>Если лопнула лампочка, а цоколь остался в патроне, наколите на осколки картофелину и спокойно выкручивайте))</value>
+  </data>
+  <data name="String694" xml:space="preserve">
+    <value>Если вы собираетесь приготовить попкорн, замочите зерна в воде на 10 минут. Обсушите зерна и готовьте попкорн как обычно. Так попкорн приготовится быстрее, будет более пушистым, и в нем будет меньше нераскрывшихся зерен.</value>
+  </data>
+  <data name="String695" xml:space="preserve">
+    <value>Чтоб мини-пёсик не убежал:)</value>
+  </data>
+  <data name="String696" xml:space="preserve">
+    <value>Как сделать фарш из куска мяса если нет мясорубки? Берём замороженный кусок мяса и просто натираем его на терке, затем размораживаем и сливаем лишнюю воду. Фарш готов.</value>
+  </data>
+  <data name="String697" xml:space="preserve">
+    <value>Ножи и вилки с деревянными черенками нельзя оставлять надолго в горячей воде, так как клей черенков растворяется. Мыть их надо сразу после использования и сразу же высушивать.</value>
+  </data>
+  <data name="String698" xml:space="preserve">
+    <value>Чтобы беспроблемно открыть зелёнку, положите её в целлофановый пакетик. Баночку, находящуюся в пакетике, открываем руками. И после данной процедуры спокойно достаём открытую баночку.</value>
+  </data>
+  <data name="String699" xml:space="preserve">
+    <value>Забрызганный грязью плащ можно протереть смоченной в уксусном растворе тряпкой. Если плащ только запылен, то его протирают сухой мягкой тряпкой, но никогда не чистят щеткой.</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>Чтобы сделать незаметными царапины на мебели, натрите их грецким орехом.</value>
+  </data>
+  <data name="String70" xml:space="preserve">
+    <value>Чтобы избавиться от ненужных наклеек на зеркалах и стёклах, смажьте их майонезом, а затем удалите эластичным шпателем.</value>
+  </data>
+  <data name="String700" xml:space="preserve">
+    <value>Термопаста хорошо оттирается бумажными полотенцами, а отмыть, даже мылом, ее очень проблематично!</value>
+  </data>
+  <data name="String701" xml:space="preserve">
+    <value>При приеме лекарств пей больше воды. Это снизит образование кристаллов в почках.</value>
+  </data>
+  <data name="String702" xml:space="preserve">
+    <value>Не храните масло и жирные продукты в полиэтилене. Они быстро портятся и приобретают неприятный запах.</value>
+  </data>
+  <data name="String703" xml:space="preserve">
+    <value>Изобретение, за которое не дали премию.</value>
+  </data>
+  <data name="String704" xml:space="preserve">
+    <value>Бывает и такое :)</value>
+  </data>
+  <data name="String705" xml:space="preserve">
+    <value>Для тех кто не может запомнить синусы и косинусы.</value>
+  </data>
+  <data name="String706" xml:space="preserve">
+    <value>Очищаем гранат.</value>
+  </data>
+  <data name="String707" xml:space="preserve">
+    <value>Удобный способ зафиксировать провод. Липучка, клей, пара минут! Можно использовать не только для ноутбука.</value>
+  </data>
+  <data name="String708" xml:space="preserve">
+    <value>Может кому и пригодится...</value>
+  </data>
+  <data name="String709" xml:space="preserve">
+    <value>Если лень доставать шампунь с полки.</value>
+  </data>
+  <data name="String71" xml:space="preserve">
+    <value>Как вы достаёте «Тик-Так»? Наверняка усиленно трясёте контейнером? А ведь упаковка всё предусматривает.</value>
+  </data>
+  <data name="String710" xml:space="preserve">
+    <value>Переперчили блюдо? Кислота — отличный способ убрать остроту. Уксус, лимон, лайм — можете использовать любую кислоту, которая не будет сильно влиять и изменять вкусовые качества блюда.</value>
+  </data>
+  <data name="String711" xml:space="preserve">
+    <value>Если ты купил ботинки, как тебя уверили, из натуральной кожи, а они грубые, попробуй намазать их обычным кремом для рук. Появятся и эластичность и мягкость.</value>
+  </data>
+  <data name="String712" xml:space="preserve">
+    <value>Если на коврике в машине образовалась лужа, положи туда снежок, он заберет в себя всю воду.</value>
+  </data>
+  <data name="String713" xml:space="preserve">
+    <value>Чем больше подходящих мест вы найдёте, чтобы развесить влажные полотенца, тем меньше нежелательных ароматов останется в помещении. А после останется лишь открыть окна на короткое время, чтобы снизить влажность.</value>
+  </data>
+  <data name="String714" xml:space="preserve">
+    <value>Если на лестничной площадке погас свет, отыскать замочную скважину можно с помощью сотового телефона. Света от его экранчика - дисплея для этого достаточно.</value>
+  </data>
+  <data name="String715" xml:space="preserve">
+    <value>Работая со строительной пеной, приготовьте заранее несколько полосок полиэтилена. Вдавливая с их помощью разбухающую массу в узкие щели, вы обеспечите надежную герметизацию.</value>
+  </data>
+  <data name="String716" xml:space="preserve">
+    <value>Налейте в чашку кипяток. После того как чашка нагреется, вылейте кипяток, положите масло и накройте все другой чашкой(можно стаканом).Таким образом не надо ждать размягчения масла.</value>
+  </data>
+  <data name="String717" xml:space="preserve">
+    <value>Игрушка своими руками из перчатки.</value>
+  </data>
+  <data name="String718" xml:space="preserve">
+    <value>Перед тем как сварить сосиски проткните их вилкой. Во время варки они сами очистятся.</value>
+  </data>
+  <data name="String719" xml:space="preserve">
+    <value>Очень удобно прикрепить список покупок к холодильнику. Заглянул внутрь, чего-то не хватает - добавил. Поехал за покупками - взял готовый список с холодильника.</value>
+  </data>
+  <data name="String72" xml:space="preserve">
+    <value>Любой стоматолог скажет вам, что зубной пасты на щётке должно быть с «горошину». Зубные щётки делают такими большими специально, чтобы мы тратили больше пасты.</value>
+  </data>
+  <data name="String720" xml:space="preserve">
+    <value>Если Вы хотите идеально ровно повесить картину, то с изнаночной стороны сделайте две отметки зубной пастой и приложите картину к стенке. Два пятнышка от зубной пасты укажут вашему сверлу четкое место для сверления.</value>
+  </data>
+  <data name="String721" xml:space="preserve">
+    <value>Платье, с молнией сзади, легко застегнется при помощи английской булавки, которой вы пристегнете к язычку молнии любой длинный шнур.</value>
+  </data>
+  <data name="String722" xml:space="preserve">
+    <value>Если Вы торопитесь и никак не можете застегнуть браслет, воспользуйтесь скотчем как показано на картинке.</value>
+  </data>
+  <data name="String723" xml:space="preserve">
+    <value>Если у Вас чрезмерно чувствительный детектор дыма - оберните его шапочкой для душа и закрепите резинкой.</value>
+  </data>
+  <data name="String724" xml:space="preserve">
+    <value>Перед разогревом пищи в микроволновке - накройте ее влажным полотенцем. Благодаря этому пища не подсохнет.</value>
+  </data>
+  <data name="String725" xml:space="preserve">
+    <value>Если у Вас на душевом смесителе образовался налет, то запакуйте его на сутки в мешочек с налитым в него уксусом, как показано на картинке, а через сутки просто промойте горячей водой.</value>
+  </data>
+  <data name="String726" xml:space="preserve">
+    <value>Чтобы удалить остатки наклейки достаточно в соду капнуть несколько капель воды и протереть этой кашицей стеклянную тару.</value>
+  </data>
+  <data name="String727" xml:space="preserve">
+    <value>Кисти в подставке для зубных щеток.</value>
+  </data>
+  <data name="String728" xml:space="preserve">
+    <value>Настольные игры в рамках.</value>
+  </data>
+  <data name="String729" xml:space="preserve">
+    <value>Старые CD вместо скребка.</value>
+  </data>
+  <data name="String73" xml:space="preserve">
+    <value>Оказывается, в банке с содовой предусмотрено место, в которое вставляется соломка.</value>
+  </data>
+  <data name="String730" xml:space="preserve">
+    <value>"Зимние шины" для велосипеда из нейлоновых хомутов.</value>
+  </data>
+  <data name="String731" xml:space="preserve">
+    <value>Чтобы открыть замерзший замок, стоит попробовать нагреть ключ пламенем зажигалки. Надо запастись терпением, но после нескольких попыток все обязательно получится.</value>
+  </data>
+  <data name="String732" xml:space="preserve">
+    <value>Чтобы сделать лук карамельным, добавь немного соды.</value>
+  </data>
+  <data name="String733" xml:space="preserve">
+    <value>Чтобы помыть блендер, его нужно разобрать, и часто эта процедура влечёт за собой порезы рук. Оказывается, нужно всго лишь наполнить его наполовину водой, добавить немного моющего средства и включить на одну - две минуты.</value>
+  </data>
+  <data name="String734" xml:space="preserve">
+    <value>Чистить массажную расчёску очень легко! Нужно взять ножницы и разрезать волосы вдоль щётки между каждой второй парой зубчиков. В результате получатся короткие кусочки, которые легко снимаются с расчёски.</value>
+  </data>
+  <data name="String735" xml:space="preserve">
+    <value>Чтобы очистить чугунную сковороду от пригоревшей еды, понадобится соль и вода. А прежде чем спрятать её на хранение, нужно смазать её растительным маслом.</value>
+  </data>
+  <data name="String736" xml:space="preserve">
+    <value>У кофе появляется неприятный привкус, пришло время чистить кофеварку с помощью воды и уксуса. Прогоняем смесь несколько раз, промываем водой до исчезновения уксусного запаха и наслаждаемся настоящим кофе.</value>
+  </data>
+  <data name="String737" xml:space="preserve">
+    <value>Большинству людей даже в голову не приходит, что зубные щётки нужно тоже чистить, не говоря уже о том, что их необходимо менять каждую пару месяцев. Достаточно просто устроить им уксусную ванну, а потом тщательно сполоснуть.</value>
+  </data>
+  <data name="String738" xml:space="preserve">
+    <value>Со временем матрасы могут стать весьма неопрятными. Впрочем, достаточно посыпать их пищевой содой, оставить её на несколько часов и пропылесосить. Исчезнут все следы и запахи. Этот же метод работает для оживления потрепанного дивана.</value>
+  </data>
+  <data name="String739" xml:space="preserve">
+    <value>После многочисленных пирогов и булочек многие смиряются с неопрятным видом противней, полагая, что другими им быть уже не дано. А вот и нет. Немного смеси перекиси водорода и пищевой соды заставят сиять их как новые.</value>
+  </data>
+  <data name="String74" xml:space="preserve">
+    <value>Храните простыни внутри наволочек из того же комплекта.</value>
+  </data>
+  <data name="String740" xml:space="preserve">
+    <value>Если у ребенка игрушки смогут выдержать водные процедуры, то их стоит помыть, а то мало ли с какой стороны разные возбудители могут подобраться. А для этого достаточно отправить их в посудомоечную машину.</value>
+  </data>
+  <data name="String741" xml:space="preserve">
+    <value>Средство для полоскания рта может оказаться очень эффективным при возникновении волдырей. Если наносить его на пораженные участки три раза в день, боль вскоре исчезнет.</value>
+  </data>
+  <data name="String742" xml:space="preserve">
+    <value>Существует неожиданно простой и эффективный способ избавиться от икоты. Нужно всего лишь проглотить чайную ложку сахара – и через несколько минут икота пройдет.</value>
+  </data>
+  <data name="String743" xml:space="preserve">
+    <value>Повесьте бумажные полотенца на плечики для одежды.</value>
+  </data>
+  <data name="String744" xml:space="preserve">
+    <value>Ванной может стать все, что вы посчитаете ванной!</value>
+  </data>
+  <data name="String745" xml:space="preserve">
+    <value>Чтобы не искать постоянно край у скотча, прикрепляйте к нему пластиковую этикетку.</value>
+  </data>
+  <data name="String746" xml:space="preserve">
+    <value>Положите у входа в муравьиную норку огуречную кожицу. Муравьи очень не любят огурцы.</value>
+  </data>
+  <data name="String747" xml:space="preserve">
+    <value>Зеркало после мойки все-равно остается грязным? Спрайт очистит зеркало до сверкающей белизны.</value>
+  </data>
+  <data name="String748" xml:space="preserve">
+    <value>После стирки одежда все-равно осталась грязной? Перед следующей стиркой замочите одежду вместе с ломтиком лимона.</value>
+  </data>
+  <data name="String749" xml:space="preserve">
+    <value>Капуста во время варки источает неприятный запах? Решение есть! Положите на капусту кусочек хлеба, он впитает запах.</value>
+  </data>
+  <data name="String75" xml:space="preserve">
+    <value>Храните браслеты и резинки на бутылках.</value>
+  </data>
+  <data name="String750" xml:space="preserve">
+    <value>Мыши не любят черный перец. Насыпте перец в тех местах, где появлялись мыши. Это может помочь избавиться от нежеланных соседей.</value>
+  </data>
+  <data name="String751" xml:space="preserve">
+    <value>Купите мужчине хорошую бутылку вина, либо виски и оформите ее как показано на картинке. Подарок готов!</value>
+  </data>
+  <data name="String752" xml:space="preserve">
+    <value>Если Вам надо передвинуть тяжелый предмет, то предварительно побрызгайте средством для мойки окон поверхность пола, а потом можете запросто скользить по нему своим тяжелым предметом.</value>
+  </data>
+  <data name="String753" xml:space="preserve">
+    <value>Для безопасного и аккуратного хранения елочных игрушек как нельзя кстати подходят простые пластиковые стаканчики.</value>
+  </data>
+  <data name="String754" xml:space="preserve">
+    <value>Из воздушных шаров, пластиковых стаканчиков и ленты можно создать оригинальную гирлянду впечатляющих размеров.</value>
+  </data>
+  <data name="String755" xml:space="preserve">
+    <value>Людям всегда лучше запоминаются вещи, произошедшие в начале и конце, тогда как ‎середина любого процесса откладывается в памяти гораздо менее подробно. При ‎планировании интервью с потенциальным работодателем полезно узнать часы его ‎приема и постараться прийти первым или последним.‎</value>
+  </data>
+  <data name="String756" xml:space="preserve">
+    <value>Успокоиться при сильном волнении помогает уборка в доме или на рабочем месте.‎</value>
+  </data>
+  <data name="String757" xml:space="preserve">
+    <value>Лайфхак для путешественников. Сложите уголь в картонный контейнер для яиц.</value>
+  </data>
+  <data name="String758" xml:space="preserve">
+    <value>Наверняка вы едите греческий йогурт в контейнере, состоящим из 2-х частей, таким образом (если, конечно, едите вообще). А так его необходимо есть на самом деле.</value>
+  </data>
+  <data name="String759" xml:space="preserve">
+    <value>Отправляясь в зоопарк, постарайтесь надеть рубашку (или куртку) того же цвета, который носят служители зоопарка. Тогда, вполне возможно, животные подойдут к вам поближе, и вы сможете лучше их рассмотреть.</value>
+  </data>
+  <data name="String76" xml:space="preserve">
+    <value>Чтобы не смотреть рекламу на YouTube, замените «youtube» в URL любого видео на «youtubeskip».</value>
+  </data>
+  <data name="String760" xml:space="preserve">
+    <value>Как остановить бешеную собаку.</value>
+  </data>
+  <data name="String761" xml:space="preserve">
+    <value>Отогнать от себя клещей можно сделав раствор из одной части масла чайного дерева и двух частей воды. Этот состав нужно распылить на ваши туфли, носки и манжеты штанов.</value>
+  </data>
+  <data name="String762" xml:space="preserve">
+    <value>Если вы оказались на улице во время грозы, не укрывайтесь под деревом или каким-либо высоким строением. Они "привлекают" молнии. Вместо этого поищите место в углублении или внутри подвала.</value>
+  </data>
+  <data name="String763" xml:space="preserve">
+    <value>Прикрепив поливочный шланг к швабре, можно легко мыть пол на веранде.</value>
+  </data>
+  <data name="String764" xml:space="preserve">
+    <value>Посудомоечная машина будет сиять чистотой, если запустить её один раз с уксусом, а второй раз с пищевой содой.</value>
+  </data>
+  <data name="String765" xml:space="preserve">
+    <value>Когда чистите аквариум, не выливайте воду, а используйте ее для полива комнатных растений. В помете рыб содержится азот и фосфор, что делает воду отличным удобрением.</value>
+  </data>
+  <data name="String766" xml:space="preserve">
+    <value>У меня есть и другие приложения!  ( ... -&gt; Настройки -&gt; ... -&gt; От автора )</value>
+  </data>
+  <data name="String767" xml:space="preserve">
+    <value>Идея декора глазка.</value>
+  </data>
+  <data name="String768" xml:space="preserve">
+    <value>Чтобы Ваш муж не жаловался, что Вы ничего не знаете.</value>
+  </data>
+  <data name="String769" xml:space="preserve">
+    <value>Вешалку можно превратить в держатель для кулинарных рецептов! Просто и очень удобно.</value>
+  </data>
+  <data name="String77" xml:space="preserve">
+    <value>Если вы задумали испечь печенье и обнаружили, что у вас нет яиц, имейте в виду, что их с успехом могут заменить бананы (по полбанана за яйцо).</value>
+  </data>
+  <data name="String770" xml:space="preserve">
+    <value>Еще одна креативная батарея.</value>
+  </data>
+  <data name="String771" xml:space="preserve">
+    <value>Платье из футболки.</value>
+  </data>
+  <data name="String772" xml:space="preserve">
+    <value>Хитрость для любителей почитать.</value>
+  </data>
+  <data name="String773" xml:space="preserve">
+    <value>Крутая идея для фото.</value>
+  </data>
+  <data name="String774" xml:space="preserve">
+    <value>Вторая жизнь удочки.</value>
+  </data>
+  <data name="String775" xml:space="preserve">
+    <value>Предстоит плавать? Не потерять обручальное кольцо поможет обычный шарик.</value>
+  </data>
+  <data name="String776" xml:space="preserve">
+    <value>Для того, чтобы оставшаяся после нарезки половина лимона не засохла - используйте зубочистку.</value>
+  </data>
+  <data name="String777" xml:space="preserve">
+    <value>Старый ботинок, прибитый к дереву, стал отличным домом для птенцов.</value>
+  </data>
+  <data name="String778" xml:space="preserve">
+    <value>Любите готовить, но не любите мыть плиту? Воспользуйтесь фольгой. Ее можно будет выбросить, когда это потребуется.</value>
+  </data>
+  <data name="String779" xml:space="preserve">
+    <value>Ночник на кухне для романтического ужина.</value>
+  </data>
+  <data name="String78" xml:space="preserve">
+    <value>Вмятину на мячике для пинг-понга легко исправить, подержав его немного над горящей зажигалкой (только не слишком близко). Газ внутри мячика под действием тепла расширится, и он станет как новенький.</value>
+  </data>
+  <data name="String780" xml:space="preserve">
+    <value>Удобная организация проводов с наушниками на время, когда вы их не используете.</value>
+  </data>
+  <data name="String781" xml:space="preserve">
+    <value>Отличная штука для сада! Только дырочки лучше прожешь а не пробивать гвоздем.</value>
+  </data>
+  <data name="String782" xml:space="preserve">
+    <value>Как укоротить кабель.</value>
+  </data>
+  <data name="String783" xml:space="preserve">
+    <value>Если Вас раздражают валяющиеся где-попало кабели, большие скрепки для бумаги помогут 'скрепить' их, как показано на изображении.</value>
+  </data>
+  <data name="String784" xml:space="preserve">
+    <value>Это занимательная таблица для проверки наблюдательности и уровня терпения со времен СССР. Следует по порядку найти числа от 1 до 90. Если Вы это делаете за: 5–10 мин, то у вас исключительная наблюдательность.</value>
+  </data>
+  <data name="String785" xml:space="preserve">
+    <value>Для любителей вязать ;)</value>
+  </data>
+  <data name="String786" xml:space="preserve">
+    <value>Как приготовить 2 пиццы за раз.</value>
+  </data>
+  <data name="String787" xml:space="preserve">
+    <value>Чтобы пыль при сверлении не летала в воздухе.</value>
+  </data>
+  <data name="String788" xml:space="preserve">
+    <value>Отличный способ заморозить фарш! Равномерно распределите фарш в пакете и тратьте меньше времени на заморозку/разморозку.</value>
+  </data>
+  <data name="String789" xml:space="preserve">
+    <value>Как быстро высушить брюки? Используйте фен, как показано на картинке.</value>
+  </data>
+  <data name="String79" xml:space="preserve">
+    <value>Чтобы при беге не болело в боку, выдыхайте каждый раз, когда левая нога касается земли.</value>
+  </data>
+  <data name="String790" xml:space="preserve">
+    <value>Отлично экономит место в шкафу!</value>
+  </data>
+  <data name="String791" xml:space="preserve">
+    <value>Быстрый способ нарезать помидоры черри.</value>
+  </data>
+  <data name="String792" xml:space="preserve">
+    <value>Вот как нужно ловить мышей :)</value>
+  </data>
+  <data name="String793" xml:space="preserve">
+    <value>Кусок клейкой ленты поможет очистить от пыли пространство между клавишами компьютерной клавиатуры.</value>
+  </data>
+  <data name="String794" xml:space="preserve">
+    <value>Из старых CD-дисков получаются замечательные подставки под стаканы.</value>
+  </data>
+  <data name="String795" xml:space="preserve">
+    <value>Чтобы легко очистить электрический гриль, после приготовления выключите его и, пока он горячий, положите на одну его сторону мокрые бумажные полотенца. Пар от мокрых полотенец размягчит остатки еды и вы сможете легко их убрать, просто протерев гриль.</value>
+  </data>
+  <data name="String796" xml:space="preserve">
+    <value>Обертывание дверной ручки фольгой защитит ее от нежелательного окрашивания.</value>
+  </data>
+  <data name="String797" xml:space="preserve">
+    <value>Чтобы запечатать пластиковый пакет, достаточно прогладить его утюгом через фольгу.</value>
+  </data>
+  <data name="String798" xml:space="preserve">
+    <value>Старые махровые носки можно использовать в качестве тряпки для швабры.</value>
+  </data>
+  <data name="String799" xml:space="preserve">
+    <value>Вешалка из скрепки.</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>Вариант лампы на природе: фонарик, который надевается на голову, одеть на канистру.</value>
+  </data>
+  <data name="String80" xml:space="preserve">
+    <value>Пейте на ночь яблочный сок – в нём содержатся вещества, от которых сны становятся ярче.</value>
+  </data>
+  <data name="String800" xml:space="preserve">
+    <value>Сидим за компьютером правильно.</value>
+  </data>
+  <data name="String801" xml:space="preserve">
+    <value>Чтобы сделать сэндвич поджаренным снаружи, но мягким внутри, положите в один слот тостера два кусочка хлеба.</value>
+  </data>
+  <data name="String802" xml:space="preserve">
+    <value>Лучший способ приклеить кафель к стене: взять битум, расплавить и капнуть всего четыре капли по углам плитки.  Приклеивается на мертво.</value>
+  </data>
+  <data name="String803" xml:space="preserve">
+    <value>Сделать  чехол  на лезвие  топора очень легко.  Берется  кусок резиновой  трубки,  разрезается  вдоль  и  надевается  на лезвие. От соскакивания  ее предохраняет кольцо,  вырезанное из старой  автомобильной камеры.</value>
+  </data>
+  <data name="String804" xml:space="preserve">
+    <value>Вкус горчицы значительно улучшиться, если в нее добавить немного меда.</value>
+  </data>
+  <data name="String805" xml:space="preserve">
+    <value>Яичница, поджаренная на слабом огне, вкуснее той, что жарилась на сильном.</value>
+  </data>
+  <data name="String806" xml:space="preserve">
+    <value>Тесто быстрее подойдет, если воткнуть в него несколько трубочек макарон.</value>
+  </data>
+  <data name="String807" xml:space="preserve">
+    <value>Чтобы в муке и крупах не заводились жучки, в емкость, где они хранятся, положите по 1-2 зубчика чеснока.</value>
+  </data>
+  <data name="String808" xml:space="preserve">
+    <value>Посуду из-под молочных продуктов следует мыть сначала в холодной, а затем в горячей воде. Т.К. от горячей воды белок сворачивается и накрепко пристае к стенкам посуды.</value>
+  </data>
+  <data name="String809" xml:space="preserve">
+    <value>Чтобы свежая рыба не пахла тиной, следует промыть ее в крепком холодном растворе соли.</value>
+  </data>
+  <data name="String81" xml:space="preserve">
+    <value>Чтобы музыка в телефоне звучала громче, положите его в миску.</value>
+  </data>
+  <data name="String810" xml:space="preserve">
+    <value>Мытье жирных тарелок облегчит хорошая привычка не ставить их в стопку.</value>
+  </data>
+  <data name="String811" xml:space="preserve">
+    <value>Отмыть бутылку из-под растительного масла поможет кофейная гуща.</value>
+  </data>
+  <data name="String812" xml:space="preserve">
+    <value>Ржавые железные противни легко можно отчистить сырой картофелиной с мелким речным песком.</value>
+  </data>
+  <data name="String813" xml:space="preserve">
+    <value>Не стоит огорчаться отсутствием специальных крючков для штор, их вполне могут заменить канцелярские скрепки.</value>
+  </data>
+  <data name="String814" xml:space="preserve">
+    <value>От долгого хранения грецкие, кедровые и другие орехи теряют вкус, свежесть и аромат. Чтобы восстановить вкусовые качества, высыпьте их в подсоленную кипящую воду и тут же снимите с огня. Когда вода остынет, слейте ее, а орехи подсушите.</value>
+  </data>
+  <data name="String815" xml:space="preserve">
+    <value>Томаты, посаженные рядом с кустами крыжовника и красной смородины, спасают эти культуры от огневки и пилильщика.</value>
+  </data>
+  <data name="String816" xml:space="preserve">
+    <value>У вас остались консервированные помидоры? Очистите их, положите в пакетик и в морозильную камеру. Помидоры пригодятся, когда будете готовить щи.</value>
+  </data>
+  <data name="String817" xml:space="preserve">
+    <value>Никогда не выбрасываю плотные пакеты от кофе с застежкой. Замораживайте в них ягоды на зиму. Очень удобно!</value>
+  </data>
+  <data name="String818" xml:space="preserve">
+    <value>Каждый раз, когда мою холодильник, промываю резиновый уплотнитель на дверце. А как высохнет, посыпаю его тальком, чтобы сохранить эластичность резины — так дверца плотнее прилегает к корпусу.</value>
+  </data>
+  <data name="String819" xml:space="preserve">
+    <value>Если в дачном домике назойливые мухи пачкают зеркало, протрите его разрезанной луковицей, а потом досуха мягкой тряпкой. Луковые фитонциды отпугнут насекомых.</value>
+  </data>
+  <data name="String82" xml:space="preserve">
+    <value>Чтобы избавиться от синяка, приложите к нему смоченный уксусом ватный тампон.</value>
+  </data>
+  <data name="String820" xml:space="preserve">
+    <value>Остатки обоев удобно хранить в картонных шпульках из-под туалетной бумаги: вставляю внутрь рулон обоев. Картон плотно обжимает их. Удобно, компактно, дешево.</value>
+  </data>
+  <data name="String821" xml:space="preserve">
+    <value>Не оставляйте в банке с медом нож или ложку: полезные вещества, которые содержатся в меде, разлагаются при соприкосновении с металлом.</value>
+  </data>
+  <data name="String822" xml:space="preserve">
+    <value>Если подсолнечное масло стало мутным, всыпьте в него немного соли. Через два-три дня на дне бутылки появится плотный осадок, а масло станет прозрачным и чистым.</value>
+  </data>
+  <data name="String823" xml:space="preserve">
+    <value>Чтобы устранить запах из термоса, положите в него 2 ложки риса, залейте теплой водой, закройте и несколько раз хорошенько встряхните. Промойте термос горячей водой.</value>
+  </data>
+  <data name="String824" xml:space="preserve">
+    <value>Не жалуйся на нехватку времени. В твоих сутках столько же часов, сколько у Эйнштейна, Гейтса и Сороса.</value>
+  </data>
+  <data name="String825" xml:space="preserve">
+    <value>Попробуйте наносить помаду не горизонтально, а вертикально. Губы в таком варианте будут смотреться более натурально, без резкого перехода.</value>
+  </data>
+  <data name="String826" xml:space="preserve">
+    <value>Чтобы сваренное вкрутую яйцо нарезать аккуратными дольками, смочите нож в холодной воде - желток не будет крошиться.</value>
+  </data>
+  <data name="String827" xml:space="preserve">
+    <value>Если кто-либо из знакомых или друзей относится к вам неприязненно, а вы хотели бы улучшить с ним отношения, попробуйте одолжить у него ручку или карандаш и верните с благдарностью. Этот простой прием резко изменит воспиятие человека.</value>
+  </data>
+  <data name="String828" xml:space="preserve">
+    <value>Нашли вещь, которую долго искали? Обязательно позже положите ее туда, где вы ее нашли. В следующий раз вы начнете поиски именно с этого места.</value>
+  </data>
+  <data name="String829" xml:space="preserve">
+    <value>Всегда храните на 'флешке' файл с именем и номером владельца. Если флешка будет утерена, шансы, что ее вернут значительно возрастают.</value>
+  </data>
+  <data name="String83" xml:space="preserve">
+    <value>При сонливости задержите дыхание настолько, насколько сможете, затем медленно выдохните. Этот приём поможет увеличить частоту сердце биения.</value>
+  </data>
+  <data name="String830" xml:space="preserve">
+    <value>Чтобы цветы стояли дольше, капните в вазу несколько капель водки или добавьте чайную ложку сахара.</value>
+  </data>
+  <data name="String831" xml:space="preserve">
+    <value>Белые пятна от мокрой посуды (чашки, тарелки, кружки) на столе легко убрать затерев их салфеткой, слегка смоченной в подсолнечном масле.</value>
+  </data>
+  <data name="String832" xml:space="preserve">
+    <value>Еще один весьма действенный способ проснуться утром - перед тем как встать с кровати, попробуйте с усилием зажмуриться на 10-15 секунд. Вам совершенно расхочется спать.</value>
+  </data>
+  <data name="String833" xml:space="preserve">
+    <value>Чтобы плавательная маска или очки не запотевали, натрите внутреннюю их сторону зубной пастой и смойте.</value>
+  </data>
+  <data name="String834" xml:space="preserve">
+    <value>Чтобы замедлить сердцебиение, прижмите подбородок к груди, сделайте глубокий вдох и медленно выдохните через нос. Повторите несколько раз и ваш пульс вернется в норму.</value>
+  </data>
+  <data name="String835" xml:space="preserve">
+    <value>Пытаетесь скопить деньги, но ничего не получается? Возмите за правило всю полученную в магазинах сдачу складывать в копилку.</value>
+  </data>
+  <data name="String836" xml:space="preserve">
+    <value>Чтобы избежать сколов на дорогой фарфоровой посуде, прокладывайте каждую чашку в стопке бумажной салфеткой.</value>
+  </data>
+  <data name="String837" xml:space="preserve">
+    <value>Чтобы мотки ниток не разматывались в коробке, оберните каждый моток канцелярской резинкой.</value>
+  </data>
+  <data name="String838" xml:space="preserve">
+    <value>Страдаете от частой изжоги - спите на левом боку. Анатомические особенности расположения желудка позволяют его содержимому попадать в пищевод, если человек лежит на правом боку.</value>
+  </data>
+  <data name="String839" xml:space="preserve">
+    <value>Если вы пишите действительно важное электронное письмо, всегда заполняйте поле адреса получателя в самую последнюю очередь. В противном случае, незаконченное письмо может быть отправлено случайным нажатием на клавишу клавиатуры.</value>
+  </data>
+  <data name="String84" xml:space="preserve">
+    <value>Холодный душ может помочь избавиться от перхоти.</value>
+  </data>
+  <data name="String840" xml:space="preserve">
+    <value>Гугл можно использовать как таймер. Для этого напечатайте в поисковой строке 'SET TIME (X) MINUTES'.</value>
+  </data>
+  <data name="String841" xml:space="preserve">
+    <value>Чтобы забить гвоздь и не отбить пальцы, используйте расческу.</value>
+  </data>
+  <data name="String842" xml:space="preserve">
+    <value>Если желтки, взбиваемые для приготовления теста, посолить, то готовые изделия приобретут приятный желтый цвет.</value>
+  </data>
+  <data name="String843" xml:space="preserve">
+    <value>Для удаления рыбьей чешуи годится не только нож, но и терка.</value>
+  </data>
+  <data name="String844" xml:space="preserve">
+    <value>Чтобы сыр не высыхал, заверните его в чистую ткань, смоченную в солёной воде.</value>
+  </data>
+  <data name="String845" xml:space="preserve">
+    <value>Если во время варки несколько раз подливать понемногу холодной воды, рыба будет вкуснее.</value>
+  </data>
+  <data name="String846" xml:space="preserve">
+    <value>Чтобы получить красивую поджаренную корочку, нужно всю поверхность сырого мяса смазать растительным маслом.</value>
+  </data>
+  <data name="String847" xml:space="preserve">
+    <value>Вы хотите приготовить тесто с изюмом? Промойте изюм в горячей воде, а потом обсыпьте мукой. Тогда изюминки распределяться в тесте равномерно.</value>
+  </data>
+  <data name="String848" xml:space="preserve">
+    <value>Белки лучше взбиваются, если их предварительно охладить, а желтки быстрее растираются, если их подогреть.</value>
+  </data>
+  <data name="String849" xml:space="preserve">
+    <value>Когда гладите галстук, вставьте между его верхним и нижним слоем кусочек картона, тогда швы не отпечатаются.</value>
+  </data>
+  <data name="String85" xml:space="preserve">
+    <value>Если вам нужно обязательно что-то вспомнить утром, отошлите перед сном самому себе сообщение, но не открывайте его.</value>
+  </data>
+  <data name="String850" xml:space="preserve">
+    <value>Перед тренировкой нанесите на кончики волос кондиционер, он будет препятствовать поступлению влаги, и ваши волосы не будут жирнеть. После тренировки ополосните волосы, они станут намного мягче. (Этот вариант представлен на случай если у вас нет времени основательно помыть голову).</value>
+  </data>
+  <data name="String851" xml:space="preserve">
+    <value>Используйте футляр для очков, чтобы положить туда кисточки для макияжа.</value>
+  </data>
+  <data name="String852" xml:space="preserve">
+    <value>Чтобы не потерять свои сережки, возьмите пуговицу и закрепите их на ней, тогда вы их точно не потеряете в своей сумке.</value>
+  </data>
+  <data name="String853" xml:space="preserve">
+    <value>Изысканный узор на пироге можно сделать, просеяв пудру сквозь салфетку.</value>
+  </data>
+  <data name="String854" xml:space="preserve">
+    <value>Коробка из-под пиццы заменит совок, который можно выбросить сразу вместе с мусором.</value>
+  </data>
+  <data name="String855" xml:space="preserve">
+    <value>Чтобы микроволновка осталась чистой после того, как ты готовишь бекон, достаточно завернуть кусочки бекона в бумажное полотенце перед готовкой. Включай микроволновку на 1 минуту каждый раз, пока бекон не станет хрустящим. 3–4 минуты — и всё готово!</value>
+  </data>
+  <data name="String856" xml:space="preserve">
+    <value>Часто после многоразового использования на бутылке с маслом остаются жирные потеки. Чтобы это предотвратить, обмотай бутылку бумажным полотенцем и закрепи его резинкой.</value>
+  </data>
+  <data name="String857" xml:space="preserve">
+    <value>Дозатор для клейкой ленты.</value>
+  </data>
+  <data name="String858" xml:space="preserve">
+    <value>Держатель для бумажных полотенец можно использовать для мешков для мусора.</value>
+  </data>
+  <data name="String859" xml:space="preserve">
+    <value>Именно так нужно складывать рубашку и пояс. Воротничок останется в идеальном состоянии!</value>
+  </data>
+  <data name="String86" xml:space="preserve">
+    <value>Укусил комар? Нагрейте ложку и приложите к месту укуса. Реакция прекратится, и зуд утихнет.</value>
+  </data>
+  <data name="String860" xml:space="preserve">
+    <value>Слишком узкие и тесные туфли станут заметно больше, если ты побрызгаешь их спреем для окон со спиртом. После этого вставь внутрь расширители или поноси туфли с толстым носком.</value>
+  </data>
+  <data name="String861" xml:space="preserve">
+    <value>Посудомоечная машина моет посуду экономичнее (если судить по расходу воды) и чище, чем человек. Постарайтесь найти возможность ее приобрести.</value>
+  </data>
+  <data name="String862" xml:space="preserve">
+    <value>Мусорные пакеты можно хранить прямо рулоном на дне ведра, под натянутым мешком. Когда достаете заполненный пакет, не нужно бегать в поисках следующего.</value>
+  </data>
+  <data name="String863" xml:space="preserve">
+    <value>Появилась свободная минута - натяните на ведро сразу 5-7 мешков. Когда верхний заполняется, вы вытаскиваете его, и мусоркой можно сразу продолжать пользоваться.</value>
+  </data>
+  <data name="String864" xml:space="preserve">
+    <value>Жир с посуды отлично смывает горчичный порошок. Дешево и экологично.</value>
+  </data>
+  <data name="String865" xml:space="preserve">
+    <value>Для чистки кофемолки прокрутите в ней пищевую соду.</value>
+  </data>
+  <data name="String866" xml:space="preserve">
+    <value>Правильнее всего начинать уборку комнаты с пылесоса и только потом протирать пыль. В противном случае она осядет снова.</value>
+  </data>
+  <data name="String867" xml:space="preserve">
+    <value>Для чистки труднодоступных мест - уголков, выемок, пазов в сантехнике, ёмкостях и бытовых приборах - пользуйтесь зубной щёткой.</value>
+  </data>
+  <data name="String87" xml:space="preserve">
+    <value>Если чувствуете, что вот-вот чихнёте, прижмите язык к нёбу и всё пройдёт.</value>
+  </data>
+  <data name="String88" xml:space="preserve">
+    <value>Если вы видите, что на вас несётся автомобиль, и вы понимаете, что убежать вы уже не успеете и столкновение неизбежно — прыгайте вверх! Так у вас будет гораздо больше шансов спастись.</value>
+  </data>
+  <data name="String89" xml:space="preserve">
+    <value>Пульсирующую головную боль можно облегчить, потерев лоб половинкой лайма.</value>
+  </data>
+  <data name="String890" xml:space="preserve">
+    <value>Ой! Кажется, это был последний совет. Ничего страшного! Просто подождите несколько дней — и в базу будут добавлены новые советы. А пока Вы можете попробовать другие мои приложения и игры ( ... -&gt; настройки -&gt; от автора).</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>Чтобы быстро разгладить мятую футболку, потрите её несколькими кубиками льда.</value>
+  </data>
+  <data name="String90" xml:space="preserve">
+    <value>Сушить джинсы нужно либо в горизонтальном положении, либо подвесив за штанины.</value>
+  </data>
+  <data name="String91" xml:space="preserve">
+    <value>Чтобы вдеть шнурок обратно в капюшон толстовки, проденьте его для начала через соломинку для коктейля.</value>
+  </data>
+  <data name="String92" xml:space="preserve">
+    <value>Ненужный очечник - отличное приспособление для хранения и перевозки маникюрных принадлежностей.</value>
+  </data>
+  <data name="String93" xml:space="preserve">
+    <value>Удобный способ хранить мелкие предметы.</value>
+  </data>
+  <data name="String94" xml:space="preserve">
+    <value>Грифель карандаша — отличная смазка для молнии. Просто проведите карандашом по зубчикам молнии.</value>
+  </data>
+  <data name="String95" xml:space="preserve">
+    <value>Если размер отвертки не подходит, положите резинку на винт таким образом. Проблема решится.</value>
+  </data>
+  <data name="String96" xml:space="preserve">
+    <value>Разложив подсушенные корки мандарина в шкафу, вы избавитесь от моли в шкафу. Еще корки придадут легкий аромат.</value>
+  </data>
+  <data name="String97" xml:space="preserve">
+    <value>Удобное хранение резинок.</value>
+  </data>
+  <data name="String98" xml:space="preserve">
+    <value>Лук в чулках сохранит свежесть до 8 месяцев.</value>
+  </data>
+  <data name="String99" xml:space="preserve">
+    <value>Для того чтобы сыр не сох, смажьте свежий срез сливочным маслом.</value>
+  </data>
+</root>

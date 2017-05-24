@@ -1,0 +1,37 @@
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\Fonts\BuxtonSketch.ttf
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\LifeChacksApp.dll
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\LifeChacksApp.pdb
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\AppManifest.xaml
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\LifeChacksApp.xap
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\Pages\App.g.cs
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\Pages\SettingsPage.g.cs
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\Pages\ListPage.g.cs
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\Pages\MainPage.g.cs
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\LifeChacksApp.g.resources
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\LifeChacksApp.Resources.BaseLineDB.resources
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\LifeChacksApp.csproj.GenerateResource.Cache
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\LifeChacksApp.dll
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\LifeChacksApp.pdb
+C:\Users\AMShishkin\Desktop\LifeChacksApp_1.6.8.0\LifeChackerApp\obj\Debug\XapCacheFile.xml
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\Fonts\BuxtonSketch.ttf
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\LifeChacksApp.dll
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\LifeChacksApp.pdb
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\AppManifest.xaml
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\LifeChacksApp.xap
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\AdDuplex.WindowsPhone.dll
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\Bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\LifeChacksApp.csprojResolveAssemblyReference.cache
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\Pages\App.g.cs
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\Pages\SettingsPage.g.cs
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\Pages\ListPage.g.cs
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\LifeChacksApp.g.resources
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\LifeChacksApp.Resources.BaseLineDB.resources
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\LifeChacksApp.csproj.GenerateResource.Cache
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\LifeChacksApp.dll
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\LifeChacksApp.pdb
+C:\Users\Artem Shishkin\Desktop\LifeChacksApp_1.6.9\LifeChackerApp\obj\Debug\XapCacheFile.xml
